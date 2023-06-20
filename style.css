@@ -4,4 +4,47 @@ html {
   margin: 0;
   font-family: sans-serif;
 }
+/* ==================== Fonts ============================================*/
+@font-face {
+  font-family: 'JosrLight';
+  src: url('/Fonts/Jost-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'JosrRegular';
+  src: url('/Fonts/Jost-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RockSalt';
+  src: url('/Fonts/RockSalt-Regular.ttf') format('truetype');
+}
 
+.font-ComforterBrush-regular {
+  font-family: 'JosrRegular';
+}
+
+.font-titel {
+  font-family: 'JosrLight';
+
+  font-size: 5.8vw;
+  /* font-size: 149.01px; */
+  letter-spacing: 1vw;
+}
+
+.font-titel-name {
+  font-family: 'RockSalt';
+
+  font-size: 1.7vw;
+letter-spacing: 0.2vw;
+}
+.font-text{
+  font-family: 'JosrLight';
+
+  font-size: 16px;
+
+}
+/* ==================== Colours ============================================*/
+
+
+.orange{
+  color: #ED8E35;
+}
