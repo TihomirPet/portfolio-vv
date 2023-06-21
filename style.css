@@ -22,6 +22,15 @@ html {
   font-family: 'JosrRegular';
 }
 
+
+
+.jost-light{
+    font-family: 'JosrLight';
+}
+.letter-space-05{
+  letter-spacing: 0.5vw;
+}
+
 .font-titel {
   font-family: 'JosrLight';
 
@@ -36,11 +45,21 @@ html {
   font-size: 1.7vw;
 letter-spacing: 0.2vw;
 }
-.font-text{
+/* .font-text1{
   font-family: 'JosrLight';
 
   font-size: 16px;
 
+} */
+.font-text{
+  font-family: 'JosrLight';
+
+  font-size: 0.8vw;
+
+}
+.font-20{
+
+font-size: 20px;
 }
 /* ==================== Colours ============================================*/
 

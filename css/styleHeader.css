@@ -13,7 +13,8 @@
 
 .bord-one {
   height: 92vh;
-  background-color: #fff8fa;
+  background-color: rgb(255, 248, 250);
+  
   border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
 .bord-two {
