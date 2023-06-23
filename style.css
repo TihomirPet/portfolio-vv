@@ -22,7 +22,9 @@ html {
   font-family: 'JosrRegular';
 }
 
-
+.rock-salt{
+    font-family: 'RockSalt';
+}
 
 .jost-light{
     font-family: 'JosrLight';
@@ -45,25 +47,33 @@ html {
   font-size: 1.7vw;
 letter-spacing: 0.2vw;
 }
-/* .font-text1{
+.font-subtitle{
   font-family: 'JosrLight';
 
   font-size: 16px;
 
-} */
+}
 .font-text{
   font-family: 'JosrLight';
 
   font-size: 0.8vw;
 
 }
+
 .font-20{
 
-font-size: 20px;
+font-size: 1vw;
+}
+.font-48-83{
+
+font-size: 48.83px;
 }
 /* ==================== Colours ============================================*/
 
 
 .orange{
   color: #ED8E35;
+}
+.white{
+  color: rgb(255, 255, 255,0.7);
 }

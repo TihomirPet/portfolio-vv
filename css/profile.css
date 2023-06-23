@@ -1,9 +1,35 @@
 .profile{
    position: relative;
   width: 100%;
-  height: 100vh;
-  background-image: url(/img/Profile.jpg);
+  height: 90vh;
+  background-image: url(/img/concret.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.profile-one{
+  height: 100vh;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profile-two{
+  height: 100vh;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profile-img{
+     position: absolute;
+     right: 2vw;
+     top: 18vh;
+     z-index: 5;
+
+  height: 62vh;
+  width: 40vw !important;
+  background-image: url(/img/people-2588064\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  /* background-size: calc(100% - 30%); */
+  background-size: contain;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: 1px solid rgba(255, 255, 255, 0.3); */
 }
