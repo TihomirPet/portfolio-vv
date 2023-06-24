@@ -1,28 +1,36 @@
-.steps{
-    background-image: url(/img/wireframe-White.jpg);
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
-
-
-.steps-one{
+.steps {
+    position: relative;
+  background-image: url(/img/wireframe-Black-White.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
-  background-color: rgb(255, 248, 250);
-  
+}
+.steps-one {
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+border-right: 1px solid rgb(10, 10, 13, 0.3);
+}
+.steps-two {
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
   border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
-.steps-two{
+.steps-three {
   height: 100vh;
-  background-color: rgb(255, 248, 250);
-  
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  background-color: rgb(255, 255, 255);
 }
-.steps-three{
-  height: 100vh;
-  background-color: rgb(255, 248, 250);
-  
+/* .steps-img {
 
-}
+
+    height:33vh;
+    background-image: url(/img/draw.jpg);
+
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+border-right: 1px solid rgb(10, 10, 13, 0.3);
+border-bottom: 1px solid rgb(10, 10, 13, 0.3);
+
+border-top: 1px solid rgb(10, 10, 13, 0.3);} */
