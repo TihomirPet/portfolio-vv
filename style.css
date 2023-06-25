@@ -22,26 +22,26 @@ html {
   font-family: 'JosrRegular';
 }
 
-.rock-salt{
-    font-family: 'RockSalt';
+.rock-salt {
+  font-family: 'RockSalt';
 }
 
-.jost-light{
-    font-family: 'JosrLight';
+.jost-light {
+  font-family: 'JosrLight';
 }
-.jost-regular{
-    font-family: 'JosrRegular';
+.jost-regular {
+  font-family: 'JosrRegular';
 }
-.letter-space-05{
+.letter-space-05 {
   letter-spacing: 0.5vw;
 }
-.letter-space-02{
+.letter-space-02 {
   letter-spacing: 0.2vw;
 }
 
 .font-titel {
   font-family: 'JosrLight';
-
+  color: rgb(255, 255, 254);
   font-size: 5.8vw;
   /* font-size: 149.01px; */
   letter-spacing: 1vw;
@@ -49,37 +49,32 @@ html {
 
 .font-titel-name {
   font-family: 'RockSalt';
-
+  color: rgb(155, 155, 155);
   font-size: 1.7vw;
-letter-spacing: 0.2vw;
+  letter-spacing: 0.2vw;
 }
-.font-subtitle{
+.font-subtitle {
   font-family: 'JosrLight';
 
   font-size: 16px;
-
 }
-.font-text{
+.font-text {
   font-family: 'JosrLight';
 
   font-size: 0.8vw;
-
 }
 
-.font-20{
-
-font-size: 1vw;
+.font-20 {
+  font-size: 1vw;
 }
-.font-48-83{
-
-font-size: 48.83px;
+.font-48-83 {
+  font-size: 48.83px;
 }
 /* ==================== Colours ============================================*/
 
-
-.orange{
-  color: #ED8E35;
+.orange {
+  color: #ed8e35;
 }
-.white{
-  color: rgb(255, 255, 255,0.7);
+.white {
+  color: rgb(255, 255, 255, 0.7);
 }

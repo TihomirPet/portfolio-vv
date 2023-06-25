@@ -7,45 +7,45 @@
   border-bottom: 1px solid rgb(10, 10, 13, 0.3);
 }
 
-
-.n-link{
+.nav-holder {
+  background-color: #fff;
+}
+.nav-one {
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+  height: 7vh;
+}
+.nav-three{
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+  height: 7vh;
+}
+.n-link {
   color: black !important;
   text-decoration: none;
-   font-family: 'JosrRegular';
-   font-size: 0.9vw;
+  font-family: 'JosrRegular';
+  font-size: 0.9vw;
 }
-.n-link:hover{
+.n-link:hover {
   color: black !important;
   text-decoration: none;
-   font-family: 'JosrRegular';
-   font-size: 0.9vw;
-   border-bottom: 1px solid rgb(12, 12, 12);
+  font-family: 'JosrRegular';
+  font-size: 0.9vw;
+  border-bottom: 1px solid rgb(12, 12, 12);
 }
-.phone img:last-child{
+.phone img:last-child {
   display: none;
-
 }
-.phone:hover img:last-child{
+.phone:hover img:last-child {
   display: block;
-
 }
-.phone:hover img:first-child{
+.phone:hover img:first-child {
   display: none;
-
 }
-.email img:last-child{
+.email img:last-child {
   display: none;
-
 }
-.email:hover img:last-child{
+.email:hover img:last-child {
   display: block;
-
 }
-.email:hover img:first-child{
+.email:hover img:first-child {
   display: none;
-
 }
-
-
-
-
