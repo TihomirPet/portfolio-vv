@@ -29,8 +29,14 @@ html {
 .jost-light{
     font-family: 'JosrLight';
 }
+.jost-regular{
+    font-family: 'JosrRegular';
+}
 .letter-space-05{
   letter-spacing: 0.5vw;
+}
+.letter-space-02{
+  letter-spacing: 0.2vw;
 }
 
 .font-titel {

@@ -1,8 +1,54 @@
-.projects{
+.projects {
+  height: 100vh;
+  background-color: #eeefe8;
+}
+.projects-one {
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  height: 100vh;
+}
+.projects-two {
+  height: 100vh;
+}
+.projects-img-holder {
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  border-bottom: 1px solid rgb(10, 10, 13, 0.3);
+}
+.projects-img-one {
+  height: 92vh;
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+}
+.projects-contact {
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+}
+.projects-contact-one {
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  height: 8vh;
+}
+.img-hover {
+  text-decoration: none;
+  color: black;
+  
+}
+.img-hover:hover{
+  text-decoration: none;
+  color: black ;
+}
+.img-hover-zoom {
+  height: 33vh; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
 
-    height: 100vh;
-    background-color: #EEEFE8;
+/* [2] Transition property for smooth transformation of images */
+.img-hover img {
+ transition: transform 0.5s ease;
+  /* filter: grayscale(90%); */
+   
 }
-.projects-one{
-    
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover:hover img {
+  transform: scale(1.1);
+  /* filter: grayscale(0%); */
 }
+
+
