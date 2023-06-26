@@ -1,5 +1,5 @@
-.profile{
-   position: relative;
+.profile {
+  position: relative;
   /* width: 100%; */
   height: 90vh;
   background-image: url(/img/Profile.jpg);
@@ -8,28 +8,44 @@
   background-size: cover;
 }
 
-.profile-one{
+.profile-one {
   height: 90vh;
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
-.profile-two{
+.profile-two {
   height: 90vh;
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
-.profile-img{
-     position: absolute;
-     right: 2vw;
-     top: 18vh;
-     z-index: 5;
+.profile-img {
+  position: absolute;
+  right: 2vw;
+  top: 18vh;
+  z-index: 5;
 
   height: 62vh;
   width: 40vw !important;
   background-image: url(/img/people-2588064\ 1.jpg);
   background-repeat: no-repeat;
   background-position: right;
-  /* background-size: calc(100% - 30%); */
   background-size: contain;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    /* border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    border-left: 1px solid rgba(255, 255, 255, 0.3); */
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */

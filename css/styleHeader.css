@@ -13,65 +13,46 @@
 
 .bord-one {
   height: 92vh;
-  /* background-color: rgba(255, 255, 255, 0.983); */
-
   background-image: url(/img/wall.png);
-
   background-repeat: no-repeat;
   background-size: auto 120vh;
   background-position: 0vw 0vh;
-
   border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 .bord-two {
   height: 92vh;
-
   background-image: url(/img/wall.png);
-
   background-repeat: no-repeat;
   background-size: auto 120vh;
   background-position: -17vw 0vh;
-
-  /* background: rgba(255, 254, 254, 0.183); */
-  /* background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0.7926703445049895) 50%,
-    rgba(255, 255, 255, 0.4834266470259979) 100%
-  ); */
 }
 .bord-three {
   height: 92vh;
   background-image: url(/img/wall.png);
-
   background-repeat: no-repeat;
   background-size: auto 120vh;
   background-position: -72vw 0vh;
   border-left: 1px solid rgba(255, 255, 255, 0.5);
-  /* background-color: rgb(255, 255, 255); */
 }
 
 .bord-down-one {
   height: 8vh;
-  background-color: rgb(255, 255, 255, 0.9934266470259979);
-
+  background-color: #eeefe8;
   border-right: 1px solid rgb(10, 10, 13, 0.3);
   border-top: 1px solid rgb(10, 10, 13, 0.3);
 }
 .bord-down-two {
   height: 8vh;
-  background: rgba(255, 255, 255, 0.983);
-  /* background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0.7926703445049895) 50%,
-    rgba(255, 255, 255, 0.4834266470259979) 100%
-  ); */
+  background-color: #eeefe8;
   border-right: 1px solid rgb(10, 10, 13, 0.5);
   border-top: 1px solid rgb(10, 10, 13, 0.3);
 }
 .bord-down-three {
   height: 8vh;
-  background-color: rgb(255, 255, 255, 0.9834266470259979);
+  background-color: #eeefe8;
   border-top: 1px solid rgb(10, 10, 13, 0.3);
 }
+
+
+
+
