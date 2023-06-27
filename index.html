@@ -110,16 +110,15 @@
         <source src="/video/141999 (1440p).mp4" type="video/mp4" />
       </video>
 
-
       <!-- ========================= Video mobile ===================================================== -->
-      <video controler height="100%" autoplay loop class="  d-block d-md-none">
+      <video controler height="100%" autoplay loop class="d-block d-md-none">
         <source src="/video/141999 (1440p).mp4" type="video/mp4" />
       </video>
     </div>
 
     <div class="profile container-fluid p-0 jost-regular">
       <div class="row m-0">
-        <div class="profile-img"></div>
+        <div class="profile-img d-none d-md-block"></div>
         <div
           class="col-2 profile-one d-flex align-items-start justify-content-start ps-5 pt-5 d-none d-md-block"
         >
@@ -127,13 +126,17 @@
             Profil
           </h2>
         </div>
-        <div class="col-md-8 profile-two ps-5 d-flex align-items-start pt-5">
-          <div class="row white mt-5 pt-5">
-            <div class="col-5">
-              <h2 class="font-48-83 font-subtitle mt-4 ps-4">
+        <div
+          class="col-12 col-md-8 profile-two ps-md-5 d-flex align-items-start pt-5"
+        >
+          <div class="row white mt-md-5 pt-md-5">
+            <div class="col-12 profile-img-mobile"></div>
+
+            <div class="col-12 col-md-5">
+              <h2 class="font-48-83 font-subtitle mt-4 ps-2 ps-md-4">
                 Mein Name ist <span>Tihomir</span>,
               </h2>
-              <p class="font-text ps-4">
+              <p class="font-text ps-2 ps-md-4">
                 aber meine Freunde nennen mich Tiho. <br />Meine Leidenschaft
                 liegt in der Erstellung von beeindruckenden und innovativen
                 visuellen Designs. <br /><br />Im Bereich Frontend-Entwicklung
@@ -170,7 +173,9 @@
         >
           <div class="row pt-md-5">
             <div class="col-12 ps-md-5">
-              <h2 class="ps-2 ps-md-4 font-48-83">Bestandteile eines Projekts</h2>
+              <h2 class="ps-2 ps-md-4 font-48-83">
+                Bestandteile eines Projekts
+              </h2>
             </div>
           </div>
           <div class="row pt-3 pt-md-5 pb-md-5">
@@ -195,11 +200,11 @@
               </p>
             </div>
           </div>
-          <div class="row  pt-md-5">
+          <div class="row pt-md-5">
             <div class="col-6 steps-img ps-5 d-none d-md-block">
               <img src="/img/draw.jpg" width="95%" class="ms-4" />
             </div>
-            <div class=" col-12 col-md-6">
+            <div class="col-12 col-md-6">
               <h2 class="ps-2 ps-md-4">Wireframing & Prototyping</h2>
               <p class="w-md-75 ps-2 ps-md-4 font-text">
                 <strong class="orange font-20">03</strong> Mit diesen
@@ -211,6 +216,9 @@
                 Aspekte wie Informationsarchitektur, Interaktionsmuster,
                 visuelles Design und Inhaltsstrategie ein.
               </p>
+            </div>
+            <div class="col-12 steps-img  d-block d-md-none">
+              <img src="/img/draw.jpg" width="100%"  />
             </div>
           </div>
         </div>

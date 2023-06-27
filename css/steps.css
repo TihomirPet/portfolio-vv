@@ -34,13 +34,11 @@ border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .steps {
-    position: relative;
-  background-image: url(/img/wireframe-Black-White.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: auto !important;
+
+.steps-two {
+  height: 108vh;
+  background-color: rgb(255, 255, 255);
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
 }
 
