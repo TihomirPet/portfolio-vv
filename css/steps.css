@@ -40,10 +40,15 @@ border-right: 1px solid rgb(10, 10, 13, 0.3);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 108vh;
+  height: auto !important;
+}
+.steps-one {
+  height: 10vh;
+  background-color: rgb(255, 255, 255);
+border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
 .steps-two {
-  height: 108vh;
+  height: auto !important;
   background-color: rgb(255, 255, 255);
   border-right: 1px solid rgb(10, 10, 13, 0.3);
 }

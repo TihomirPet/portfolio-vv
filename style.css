@@ -103,21 +103,21 @@ html {
 
   .font-titel-name {
     font-family: 'RockSalt';
-    color: rgb(155, 155, 155);
+    color: rgb(241, 241, 241);
     font-size: 5.7vw;
     letter-spacing: 0.2vw;
   }
   .font-text {
   font-family: 'JosrLight';
 
-  font-size: 3.5vw;
+  font-size: 3.9vw;
 }
 .font-20 {
   font-size: 4.5vw;
   /* font-size: 20px; */
 }
 .font-48-83 {
-  font-size: 8.4vw;
+  font-size: 7.4vw;
 }
 }
 
