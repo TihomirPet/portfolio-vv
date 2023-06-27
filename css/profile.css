@@ -45,6 +45,10 @@
 }
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .profile-one {
+  height: 10vh;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
   .profile {
   position: relative;
   /* width: 100%; */
