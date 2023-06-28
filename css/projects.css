@@ -24,6 +24,10 @@
   border-right: 1px solid rgb(10, 10, 13, 0.3);
   height: 8vh;
 }
+  .projects-contact-two {
+  border-bottom: 1px solid rgb(10, 10, 13, 0.3);
+   height: 8vh;
+}
 .img-hover {
   text-decoration: none;
   color: black;
@@ -57,9 +61,28 @@
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
+
 }
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+
+  .projects-two {
+  height:auto;
+}
+  .projects {
+  height: auto;
+  background-color: #eeefe8;
+}
+.projects-contact-one {
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  height: 9vh;
+}
+  .projects-contact-two {
+  border-bottom:none;
+   height: 9vh;
+}
+
+
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
