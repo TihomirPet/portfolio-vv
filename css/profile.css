@@ -39,6 +39,20 @@
 }
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+  .profile-img {
+  position: absolute;
+  right: 2vw;
+  top: 18vh;
+  z-index: 5;
+
+  height: 49vh;
+  width: 38vw !important;
+  background-image: url(/img/people-2588064\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
