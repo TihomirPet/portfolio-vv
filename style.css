@@ -68,6 +68,11 @@ html {
   font-size: 1vw;
 }
 
+.font-25 {
+  font-size: 1.2vw;
+
+}
+
 .font-48-83 {
   font-size: 2.4vw;
 }
@@ -106,8 +111,12 @@ html {
   font-size: 1.6vw;
 }
 .font-20 {
-  font-size: 2vw;
+  font-size: 1.8vw;
   /* font-size: 20px; */
+}
+.font-25 {
+  font-size: 2.2vw;
+
 }
 .font-48-83 {
   font-size: 3.4vw;

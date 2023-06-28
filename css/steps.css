@@ -1,9 +1,5 @@
 .steps {
-    position: relative;
 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   height: 100vh;
 }
 .steps-one {
@@ -28,6 +24,20 @@ border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+  .steps {
+ 
+  height: auto ;
+}
+.steps-one {
+  height:auto;
+  background-color: rgb(255, 255, 255);
+border-right: 1px solid rgb(10, 10, 13, 0.3);
+}
+.steps-two {
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+}
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
