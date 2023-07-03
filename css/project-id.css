@@ -1,17 +1,25 @@
-.project-id{
-    height: 100vh;
+.project-id {
+  height: 100vh;
 }
-.project-id-two{
-
-
+.project-id-two {
 }
-.project-id-one{
-    height: 100vh;
-      border-right: 1px solid rgb(10, 10, 13, 0.3);
-
+.project-id-one {
+  height: 100vh;
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
-.project-id-three{
-    height: 100vh;
-      border-left: 1px solid rgb(10, 10, 13, 0.3);
+.project-id-three {
+  height: 100vh;
+  border-left: 1px solid rgb(10, 10, 13, 0.3);
+}
 
+.projects-id-img {
+  width: 100%;
+}
+.project-id-top {
+  height: 18vh;
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+}
+.project-id-bottom{
+  height: 14.3vh;
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
