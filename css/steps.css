@@ -1,14 +1,14 @@
 .steps {
 
-  height: 100vh;
+  height: 105vh;
 }
 .steps-one {
-  height: 100vh;
+  height: 105vh;
   background-color: rgb(255, 255, 255);
 border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
 .steps-two {
-  height: 100vh;
+  height: 105vh;
   background-color: rgb(255, 255, 255);
   border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
