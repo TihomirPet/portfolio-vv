@@ -1,0 +1,17 @@
+.project-id{
+    height: 100vh;
+}
+.project-id-two{
+
+
+}
+.project-id-one{
+    height: 100vh;
+      border-right: 1px solid rgb(10, 10, 13, 0.3);
+
+}
+.project-id-three{
+    height: 100vh;
+      border-left: 1px solid rgb(10, 10, 13, 0.3);
+
+}
