@@ -50,7 +50,9 @@
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
-
+.contact-icon{
+  width:5vw;
+}
 }
 
 /* // XX-Large devices (larger desktops) */

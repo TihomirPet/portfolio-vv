@@ -25,7 +25,7 @@
   height: 8vh;
 }
   .projects-contact-two {
-  border-bottom: 1px solid rgb(10, 10, 13, 0.3);
+  /* border-bottom: 1px solid rgb(10, 10, 13, 0.3); */
    height: 8vh;
 }
 .img-hover {
@@ -58,6 +58,9 @@
 
 /* X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
+    .projects-contact-two {
+  border-bottom:none;
+   height: 9vh;}
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
