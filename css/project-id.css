@@ -19,7 +19,57 @@
   height: 18vh;
   border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
-.project-id-bottom{
+.project-id-bottom {
   height: 14.3vh;
   border-right: 1px solid rgb(10, 10, 13, 0.3);
+}
+
+.project-id-mobile {
+  height: 100vh;
+  /* background-color: #eeefe8; */
+  border-top: 1px solid rgb(10, 10, 13, 0.3);
+}
+.project-id-mobile-one {
+  height: 100vh;
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+}
+.project-id-mobile-two {
+  height: 100vh;
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+}
+.project-id-mobile-vour {
+  height: 100vh;
+  border-left: 1px solid rgb(10, 10, 13, 0.3);
+}
+.projects-id-mobile-img{
+  height: 68vh;
+  border-radius: 0.7vw;
+}
+
+
+.img-hover-zoom-mobile {
+ height: 68vh; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-mobile img {
+ transition: transform 0.5s ease;
+  /* filter: grayscale(90%); */
+   
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-mobile:hover img {
+  transform: scale(1.05);
+  /* filter: grayscale(0%); */
+}
+.mobile-btn{
+  border:1px solid rgb(10, 10, 13, 0.5) !important;
+  border-radius: 10vw !important;
+}
+.mobile-btn:hover{
+  border:2px solid rgb(10, 10, 13, 0.5) !important;
+  border-radius: 10vw !important;
+  font-family:'JosrRegular' ;
 }
