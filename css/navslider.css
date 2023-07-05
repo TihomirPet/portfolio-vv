@@ -1,39 +1,52 @@
-.nav-slider{
-    position: absolute;
-    bottom:0;
-    height: 7vh;
-    z-index:40;
-    background-color: #441818;
-
+.nav-slider {
+  position: absolute;
+  bottom: 0;
+  height: 7vh;
+  z-index: 40;
+  /* background-color: #441818; */
 }
-.carousel-control-next, .carousel-control-prev {
+.nav-slider-holder {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+.carousel-control-prev,
+.carousel-control-next {
   position: relative !important;
   z-index: 6;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
+  height: 7vh !important;
+  width: 100% !important;
   padding: 0;
-  color: #fff;
+  color: #000000 !important;
   text-align: center;
   background: 0 0;
   border: 0;
-  opacity: .5;
-  transition: opacity .15s ease;
+  font-family: 'JosrRegular';
+  font-size: 0.9vw;
+text-transform: uppercase;
+letter-spacing: 0.29vw;
+  opacity: 0.9;
+  transition: opacity 0.15s ease;
 }
-.carousel-control-next, .carousel-control-prev {
- position: relative !important;
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+  position: relative !important;
 
   z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
+  height: 7vh !important;
+  width: 100% !important;
   padding: 0;
-  color: #fff;
+  color: #000000 !important;
+
   text-align: center;
-  background: 0 0;
+  font-family: 'JosrRegular';
+background-color: #fff;
   border: 0;
-  opacity: .5;
-  transition: opacity .15s ease;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
 }
