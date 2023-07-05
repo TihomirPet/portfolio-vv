@@ -1,4 +1,5 @@
 .project-id {
+  position: relative;
   height: 100vh;
 }
 .project-id-two {
@@ -25,8 +26,9 @@
 }
 
 .project-id-mobile {
+  position: relative;
   height: 100vh;
-  /* background-color: #eeefe8; */
+  background-color: #eeefe8;
   border-top: 1px solid rgb(10, 10, 13, 0.3);
 }
 .project-id-mobile-one {
