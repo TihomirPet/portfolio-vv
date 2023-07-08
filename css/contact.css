@@ -32,6 +32,11 @@
     height: 100%;
     /* background-color: #fff; */
   }
+    .contact {
+    font-size: 1.1vw !important;
+    color: #000;
+    text-decoration: none;
+  }
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
