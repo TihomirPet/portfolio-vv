@@ -102,7 +102,7 @@
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .projects {
-  height:auto;
+  height:auto !important;
   background-color: #eeefe8;
 }
 .projects-one {

@@ -97,7 +97,7 @@
   .profile {
   position: relative;
   /* width: 100%; */
-  height: 100vh;
+  height: auto;
   background-image: url(/img/Profile.jpg);
   background-repeat: no-repeat;
   background-position: center;
