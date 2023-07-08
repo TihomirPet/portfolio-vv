@@ -5,9 +5,22 @@ html {
   font-family: sans-serif;
 }
 /* ==================== Fonts ============================================*/
+
+@font-face {
+  font-family: 'KiwiMaru-Light';
+  src: url('/Fonts/KiwiMaru-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'UnboundedRegular';
+  src: url('/Fonts/SyneMono-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'RammetoOne';
+  src: url('/Fonts/RammettoOne-Regular.ttf') format('truetype');
+}
 @font-face {
   font-family: 'JosrLight';
-  src: url('/Fonts/Jost-Light.ttf') format('truetype');
+  src: url('/Fonts/Geologica-Thin.ttf') format('truetype');
 }
 @font-face {
   font-family: 'JosrRegular';
@@ -41,25 +54,26 @@ html {
 
 .font-titel {
   font-family: 'JosrLight';
-  color: rgb(255, 255, 254);
-  color: rgb(255, 255, 217);
+
+  color: #eeefe8;
   font-size: 5.8vw;
 
-  letter-spacing: 1vw;
+  letter-spacing: 2.3vw;
 }
-.text-overlay{
-    font-family: 'JosrLight';
-  color: black;
-    color: rgb(199, 199, 173);
+.text-overlay {
+  font-family: 'JosrLight';
+
+  color: rgba(232, 236, 239, 0.6);
   font-size: 0.8vw;
+
 }
 
 .font-titel-name {
-  font-family: 'RockSalt';
-  color: rgb(155, 155, 155);
-  color: rgb(170, 170, 150);
+  font-family: 'JosrLight';
+
+  color: rgb(238, 239, 232,0.8);
   font-size: 1.7vw;
-  letter-spacing: 0.2vw;
+   letter-spacing: 1.2vw;
 }
 .font-subtitle {
   font-family: 'JosrLight';
@@ -78,7 +92,6 @@ html {
 
 .font-25 {
   font-size: 1.2vw;
-
 }
 
 .font-48-83 {
@@ -96,44 +109,43 @@ html {
 /* X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
   .font-text {
-  font-family: 'JosrLight';
+    font-family: 'JosrLight';
 
-  font-size: 1vw;
-}
+    font-size: 1vw;
+  }
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
 }
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-    .font-titel {
+  .font-titel {
     font-family: 'JosrLight';
     color: rgb(255, 255, 254);
     font-size: 6.5vw;
     letter-spacing: 2vw;
   }
-    .font-titel-name {
+  .font-titel-name {
     font-family: 'RockSalt';
     color: rgb(241, 241, 241);
     font-size: 2.7vw;
     letter-spacing: 0.2vw;
   }
-    .font-text {
-  font-family: 'JosrLight';
+  .font-text {
+    font-family: 'JosrLight';
 
-  font-size: 1.6vw;
-}
-.font-20 {
-  font-size: 1.8vw;
-  /* font-size: 20px; */
-}
-.font-25 {
-  font-size: 2.2vw;
-
-}
-.font-48-83 {
-  font-size: 3.4vw;
-}
+    font-size: 1.6vw;
+  }
+  .font-20 {
+    font-size: 1.8vw;
+    /* font-size: 20px; */
+  }
+  .font-25 {
+    font-size: 2.2vw;
+  }
+  .font-48-83 {
+    font-size: 3.4vw;
+  }
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -143,27 +155,34 @@ html {
   .font-titel {
     font-family: 'JosrLight';
     color: rgb(255, 255, 254);
-    font-size: 14.5vw;
-    letter-spacing: 2vw;
+    font-size: 13.5vw;
+    letter-spacing: 1vw;
   }
 
   .font-titel-name {
-    font-family: 'RockSalt';
+  font-family: 'JosrLight';
     color: rgb(241, 241, 241);
     font-size: 5.7vw;
-    letter-spacing: 0.2vw;
+    letter-spacing: 2.2vw;
   }
   .font-text {
+    font-family: 'JosrLight';
+
+    font-size: 3.9vw;
+  }
+  .font-20 {
+    font-size: 4.5vw;
+    /* font-size: 20px; */
+  }
+  .font-48-83 {
+    font-size: 7.4vw;
+  }
+  .text-overlay {
   font-family: 'JosrLight';
 
+  color: rgba(255, 255, 255);
   font-size: 3.9vw;
-}
-.font-20 {
-  font-size: 4.5vw;
-  /* font-size: 20px; */
-}
-.font-48-83 {
-  font-size: 7.4vw;
+
 }
 }
 

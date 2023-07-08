@@ -13,26 +13,31 @@
 
 .bord-one {
   height: 92vh;
-  background-image: url(/img/wall-S.png);
+  /* background-image: url(/img/wall-S.png);
+
   background-repeat: no-repeat;
   background-size: auto 120vh;
-  background-position: 0vw 0vh;
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  background-position: 0vw 0vh; */
+  /* border-right: 1px solid rgba(255, 255, 255, 0.3); */
+   background-color:rgb(238, 239, 232);
 }
 .bord-two {
   height: 92vh;
-  background-image: url(/img/wall-S.png);
+  /* background-image: url(/img/wall-S.png);
   background-repeat: no-repeat;
   background-size: auto 120vh;
-  background-position: -17vw 0vh;
+  background-position: -17vw 0vh; */
+     background-color:rgb(0, 0, 0,0.2);
+  
 }
 .bord-three {
   height: 92vh;
-  background-image: url(/img/wall-S.png);
+  /* background-image: url(/img/wall-S.png);
   background-repeat: no-repeat;
   background-size: auto 120vh;
-  background-position: -72vw 0vh;
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  background-position: -72vw 0vh; */
+  /* border-left: 1px solid rgba(255, 255, 255, 0.5); */
+    background-color:rgb(238, 239, 232);
 }
 
 .bord-down-one {
