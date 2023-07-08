@@ -18,25 +18,23 @@
   border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
 .projects-contact {
-
   border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
 .projects-contact-one {
   border-right: 1px solid rgb(10, 10, 13, 0.3);
   height: 8vh;
 }
-  .projects-contact-two {
+.projects-contact-two {
   /* border-bottom: 1px solid rgb(10, 10, 13, 0.3); */
-   height: 8vh;
+  height: 8vh;
 }
 .img-hover {
   text-decoration: none;
   color: black;
-  
 }
-.img-hover:hover{
+.img-hover:hover {
   text-decoration: none;
-  color: black ;
+  color: black;
 }
 .img-hover-zoom {
   height: 33vh; /* [1.1] Set it as per your need */
@@ -45,9 +43,8 @@
 
 /* [2] Transition property for smooth transformation of images */
 .img-hover img {
- transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
   /* filter: grayscale(90%); */
-   
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
@@ -56,45 +53,45 @@
   /* filter: grayscale(0%); */
 }
 
-
 /* X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
-    .projects-contact-two {
-  border-bottom:none;
-   height: 9vh;}
-   .projects-contact-one {
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
-  height: 7vh;
-}
+  .projects {
+    height: auto;
+    background-color: #eeefe8;
+  }
   .projects-contact-two {
-  /* border-bottom: 1px solid rgb(10, 10, 13, 0.3); */
-   height: 7vh;
-}
+    border-bottom: none;
+    height: 9vh;
+  }
+  .projects-contact-one {
+    border-right: 1px solid rgb(10, 10, 13, 0.3);
+    height: 7vh;
+  }
+  .projects-contact-two {
+    /* border-bottom: 1px solid rgb(10, 10, 13, 0.3); */
+    height: 7vh;
+  }
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-
 }
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-
   .projects-two {
-  height:auto;
-}
+    height: auto;
+  }
   .projects {
-  height: auto;
-  background-color: #eeefe8;
-}
-.projects-contact-one {
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
-  height: 9vh;
-}
+    height: auto;
+    background-color: #eeefe8;
+  }
+  .projects-contact-one {
+    border-right: 1px solid rgb(10, 10, 13, 0.3);
+    height: 9vh;
+  }
   .projects-contact-two {
-  border-bottom:none;
-   height: 9vh;
-}
-
-
+    border-bottom: none;
+    height: 9vh;
+  }
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -102,29 +99,29 @@
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .projects {
-  height:auto !important;
-  background-color: #eeefe8;
-}
-.projects-one {
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
-  height: 10vh;
-}
-.projects-contact-one {
-  border-bottom: 1px solid rgb(10, 10, 13, 0.3);
-  height: 8vh;
-}
-.projects-img-one {
-  height:40vh;
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
-}
-.projects-img-two {
-  height:40vh;
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
-}
-.img-hover-zoom {
-  height: 23vh; /* [1.1] Set it as per your need */
-  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-}
+    height: auto !important;
+    background-color: #eeefe8;
+  }
+  .projects-one {
+    border-right: 1px solid rgb(10, 10, 13, 0.3);
+    height: 10vh;
+  }
+  .projects-contact-one {
+    border-bottom: 1px solid rgb(10, 10, 13, 0.3);
+    height: 8vh;
+  }
+  .projects-img-one {
+    height: 40vh;
+    border-right: 1px solid rgb(10, 10, 13, 0.3);
+  }
+  .projects-img-two {
+    height: 40vh;
+    border-right: 1px solid rgb(10, 10, 13, 0.3);
+  }
+  .img-hover-zoom {
+    height: 23vh; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
 }
 
 /* // XX-Large devices (larger desktops) */
