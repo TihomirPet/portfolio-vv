@@ -126,11 +126,18 @@ html {
     letter-spacing: 2vw;
   }
   .font-titel-name {
-    font-family: 'RockSalt';
+   font-family: 'JosrLight';
     color: rgb(241, 241, 241);
     font-size: 2.7vw;
-    letter-spacing: 0.2vw;
+    letter-spacing: 1.3vw;
   }
+  .text-overlay {
+  font-family: 'JosrLight';
+
+  color: rgba(232, 236, 239, 0.6);
+  font-size: 1.5vw;
+
+}
   .font-text {
     font-family: 'JosrLight';
 
@@ -141,7 +148,7 @@ html {
     /* font-size: 20px; */
   }
   .font-25 {
-    font-size: 2.2vw;
+    font-size: 2vw;
   }
   .font-48-83 {
     font-size: 3.4vw;
@@ -174,6 +181,9 @@ html {
     font-size: 4.5vw;
     /* font-size: 20px; */
   }
+  .font-25 {
+  font-size: 6.2vw;
+}
   .font-48-83 {
     font-size: 7.4vw;
   }
