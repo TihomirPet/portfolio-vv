@@ -18,8 +18,18 @@
 /* X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
   .steps {
-    height: auto;
+    height: 110vh;
   }
+  .steps-one {
+  height: 110vh;
+  background-color: rgb(255, 255, 255);
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+}
+.steps-two {
+  height: 110vh;
+  background-color: rgb(255, 255, 255);
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+}
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
