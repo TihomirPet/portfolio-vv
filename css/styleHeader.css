@@ -36,8 +36,9 @@
   background-repeat: no-repeat;
   background-size: auto 120vh;
   background-position: -72vw 0vh; */
-  /* border-left: 1px solid rgba(255, 255, 255, 0.5); */
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
     background-color:rgb(238, 239, 232);
+ 
 }
 
 .bord-down-one {
@@ -84,11 +85,26 @@
 }
 .bord-two {
   height: 85vh !important;
-  background-image: url(/img/wall.jpg);
+  /* background-image: url(/img/wall.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 120vh;
-  background-position: -17vw 0vh;
+  background-position: -17vw 0vh; */
+}
+.header-video{
+
+  position: absolute;
+  transform: rotate(90deg);
+
+  transform-origin: bottom left;
+  width: 100vh;
+  height: 100vw;
+  margin-top: -100vw;
+  object-fit: cover;
+
+  /* z-index: 4; */
+  visibility: visible;
+  
 }
 }
 

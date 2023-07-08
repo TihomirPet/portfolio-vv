@@ -23,13 +23,13 @@
   color: black !important;
   text-decoration: none;
   font-family: 'JosrRegular';
-  font-size: 0.9vw;
+  font-size: 0.8vw;
 }
 .n-link:hover {
   color: black !important;
   text-decoration: none;
   font-family: 'JosrRegular';
-  font-size: 0.9vw;
+  font-size: 0.8vw;
   border-bottom: 1px solid rgb(12, 12, 12);
 }
 .phone img:last-child {
