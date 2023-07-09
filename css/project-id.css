@@ -89,8 +89,45 @@
 }
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+.project-id {
+  position: relative;
+  height: 100vh;
+}
+.project-id-one {
+  height: auto;
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+}
+.project-id-mobile {
+  position: relative;
+  height: auto;
+  background-color: #eeefe8;
 
-
+}
+.project-id-mobile-two {
+  height: auto;
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+}
+.project-id-mobile-vour {
+  height: auto;
+  border-left: 1px solid rgb(10, 10, 13, 0.3);
+}
+.project-id-bottom {
+  height: 25vh;
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+}
+.projects-id-mobile-img{
+  height: 90vh;
+  border-radius: 0.9vw;
+}
+.img-hover-zoom-mobile {
+ height: 90vh; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+.mobile-btn{
+  font-size: 1.6vw !important;
+  border:1px solid rgb(10, 10, 13, 0.5) !important;
+  border-radius: 10vw !important;
+}
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -98,6 +135,11 @@
 }
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .mobile-btn{
+  font-size: 4vw !important;
+  border:1px solid rgb(10, 10, 13, 0.5) !important;
+  border-radius: 10vw !important;
+}
   .projects-id-mobile-img{
   height: 85vh;
   border-radius: 3vw;
