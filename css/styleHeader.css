@@ -13,13 +13,7 @@
 
 .bord-one {
   height: 92vh;
-  /* background-image: url(/img/wall-S.png);
-
-  background-repeat: no-repeat;
-  background-size: auto 120vh;
-  background-position: 0vw 0vh; */
-  /* border-right: 1px solid rgba(255, 255, 255, 0.3); */
-   background-color:rgb(238, 239, 232);
+  background-color: rgb(238, 239, 232);
 }
 .bord-two {
   height: 92vh;
@@ -27,18 +21,16 @@
   background-repeat: no-repeat;
   background-size: auto 120vh;
   background-position: -17vw 0vh; */
-     background-color:rgb(0, 0, 0,0.2);
-  
+  /* background-color:rgb(0, 0, 0,0.2); */
+  /* background-color:rgba(255, 137, 3, 0.4); */
+}
+#background {
+  transition: all 2s ease-out;
 }
 .bord-three {
   height: 92vh;
-  /* background-image: url(/img/wall-S.png);
-  background-repeat: no-repeat;
-  background-size: auto 120vh;
-  background-position: -72vw 0vh; */
   border-left: 1px solid rgba(255, 255, 255, 0.5);
-    background-color:rgb(238, 239, 232);
- 
+  background-color: rgb(238, 239, 232);
 }
 
 .bord-down-one {
@@ -59,8 +51,6 @@
   border-top: 1px solid rgb(10, 10, 13, 0.3);
 }
 
-
-
 /* X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
 }
@@ -76,36 +66,34 @@
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .bord-one {
-  height: 7vh;
-  background-image: url(/img/wall.png);
-  background-repeat: no-repeat;
-  background-size: auto 120vh;
-  background-position: 0vw 0vh;
-  border-right: 1px solid rgba(255, 255, 255, 0.3);
-}
-.bord-two {
-  height: 85vh !important;
-  /* background-image: url(/img/wall.jpg);
+    height: 7vh;
+    background-image: url(/img/wall.png);
+    background-repeat: no-repeat;
+    background-size: auto 120vh;
+    background-position: 0vw 0vh;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .bord-two {
+    height: 85vh !important;
+    /* background-image: url(/img/wall.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto 120vh;
   background-position: -17vw 0vh; */
-}
-.header-video{
+  }
+  .header-video {
+    position: absolute;
+    transform: rotate(90deg);
 
-  position: absolute;
-  transform: rotate(90deg);
+    transform-origin: bottom left;
+    width: 100vh;
+    height: 100vw;
+    margin-top: -100vw;
+    object-fit: cover;
 
-  transform-origin: bottom left;
-  width: 100vh;
-  height: 100vw;
-  margin-top: -100vw;
-  object-fit: cover;
-
-  /* z-index: 4; */
-  visibility: visible;
-  
-}
+    /* z-index: 4; */
+    visibility: visible;
+  }
 }
 
 /* // XX-Large devices (larger desktops) */
