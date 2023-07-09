@@ -86,6 +86,36 @@
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
+  .project-id-mobile {
+  position: relative;
+  height: auto;
+  background-color: #eeefe8;
+
+}
+.project-id-one {
+  height: auto;
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+}
+.project-id-mobile-two {
+  height: auto;
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+}
+.project-id-mobile-vour {
+  height: auto;
+  border-left: 1px solid rgb(10, 10, 13, 0.3);
+}
+.project-id-bottom {
+  height: 25vh;
+  border-right: 1px solid rgb(10, 10, 13, 0.3);
+}
+.projects-id-mobile-img{
+  height: 90vh;
+  border-radius: 0.9vw;
+}
+.img-hover-zoom-mobile {
+ height: 90vh; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
 }
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
