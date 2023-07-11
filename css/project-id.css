@@ -42,16 +42,18 @@
 .project-id-mobile-vour {
   height: 100vh;
   border-left: 1px solid rgb(10, 10, 13, 0.3);
+   border-radius: 0.7vw;
 }
 .projects-id-mobile-img{
   height: 68vh;
-  border-radius: 0.7vw;
+
 }
 
 
 .img-hover-zoom-mobile {
  height: 68vh; /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+     border-radius: 0.7vw;
 }
 
 /* [2] Transition property for smooth transformation of images */
@@ -177,6 +179,7 @@
 .img-hover-zoom-mobile {
  height: 85vh; /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+    border-radius: 3vw;
 }
   .project-id-mobile {
   position: relative;
