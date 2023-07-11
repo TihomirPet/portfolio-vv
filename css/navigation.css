@@ -6,9 +6,12 @@
   height: 7vh;
   border-bottom: 1px solid rgb(10, 10, 13, 0.3);
 }
+.navbar{
+  background-color: #eeefe8;
+}
 
 .nav-holder {
-  background-color: #fff;
+
     background-color: #eeefe8;
 }
 .nav-one {
@@ -93,6 +96,20 @@
 }
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .n-link {
+  color: black !important;
+  text-decoration: none;
+  font-family: 'JosrRegular';
+  font-size: 5vw;
+}
+  .phone-img-mobile{
+
+    width: 5vw;
+  }
+  .email-img-mobile{
+
+    width: 5vw;
+  }
 }
 
 /* // XX-Large devices (larger desktops) */
