@@ -90,41 +90,8 @@
 
 
 
-    <!--========= Navigation start-->
-    <!-- <div class="container-fluid nav-holder">
-      <div class="row">
-        <div class="col-2 nav-one"></div>
-        <div class="col-8 d-flex justify-content-center nav-wrapper p-0">
-          <nav class="nav w-50 justify-content-around mt-xl-3">
-            <li class="nav-item">
-              <a class="n-link" href="#01">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="n-link" href="#02">Profil</a>
-            </li>
 
-            <li class="nav-item">
-              <a class="n-link" href="#03">Projekte</a>
-            </li>
-            <li class="nav-item">
-              <a class="n-link" href="#04">Kontakt</a>
-            </li>
-          </nav>
-        </div>
-        <div class="col-2 d-flex align-items-center nav-three">
-          <div class="w-100 d-flex align-items-center justify-content-center">
-            <a class="phone" href="tel:+491639136818">
-              <img src="/img/phone.png" class="phone-img" />
-              <img src="/img/phon_R.png" class="phone-img" />
-            </a>
-            <a class="email ms-3" href="mailto:tihomirpetro@web.de">
-              <img src="/img/envelop.png" class="email-img" />
-              <img src="/img/envelop-O.png" class="email-img" />
-            </a>
-          </div>
-        </div>
-      </div> -->
-    <!-- </div> -->
+
 
     <!--======= Navigation end ====================-->
     <!--=========================== Overlay start ===============================================================-->
@@ -444,16 +411,21 @@
       let i = 0;
       let doc = document.getElementById('background');
       let color = [
-        'rgba(76, 0, 255, 0.4)',
-        'rgba(76, 0, 255, 0.4)',
-        'rgba(255, 137, 3, 0.4)',
-        'rgba(255, 251, 3, 0.4)',
+        'rgb(93, 54, 173,0.6)',
+        'rgb(41, 219, 224,0.6)',
+        'rgb(241, 174, 41,0.6)',
+        // 'rgb(234, 90, 41,0.6)',
+        // 'rgb(0, 183, 235,0.6)',
+
+    
+    
+      
       ];
       function change() {
         doc.style.backgroundColor = color[i];
         i = (i + 1) % color.length;
       }
-      setInterval(change, 5000);
+      setInterval(change, 10000);
     </script>
     <!-- ************************************************************************************** -->
   </body>

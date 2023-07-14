@@ -20,6 +20,8 @@
 
 }
 #background {
+      background-color:rgb(241, 174, 41,0.6);
+
   transition: all 3s ease-out;
 }
 .bord-three {
@@ -31,6 +33,7 @@
 .bord-down-one {
   height: 8vh;
   background-color: #eeefe8;
+  /* background-color:rgb(234, 90, 41); */
   border-right: 1px solid rgb(10, 10, 13, 0.3);
   border-top: 1px solid rgb(10, 10, 13, 0.3);
 }

@@ -2,9 +2,9 @@
   position: relative;
   /* width: 100%; */
   height: 90vh;
-  background-image: url(/img/Profile.jpg);
+  background-image: url(/img/wall-DS.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
 }
 
@@ -24,7 +24,7 @@
 
   height: 62vh;
   width: 40vw !important;
-  background-image: url(/img/people-2588064\ 1.jpg);
+  background-image: url(/img/person.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
