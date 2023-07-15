@@ -1,23 +1,26 @@
 .nav-holder {
   position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  z-index: 5;
-  height: 7vh;
+  z-index: 8;
+  /* height: 7vh; */
   border-bottom: 1px solid rgb(10, 10, 13, 0.3);
 }
 .navbar{
-  background-color: #eeefe8;
+  /* background-color: #eeefe8; */
 }
 
 .nav-holder {
 
     background-color: #eeefe8;
+    /* background-color: #ffffff; */
 }
 .nav-one {
   border-right: 1px solid rgba(0, 0, 0, 0.3);
   height: 7vh;
 }
+
 .nav-three{
     border-left: 1px solid rgba(0, 0, 0, 0.3);
   height: 7vh;
