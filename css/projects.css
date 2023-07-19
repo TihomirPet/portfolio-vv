@@ -10,13 +10,17 @@
   height: 100vh;
 }
 .projects-img-holder {
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
   border-bottom: 1px solid rgb(10, 10, 13, 0.3);
 }
 .projects-img-one {
   height: 92vh;
   border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
+ .projects-three{
+
+    border-left: 1px solid rgb(10, 10, 13, 0.3);
+  }
 .projects-contact {
   border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
