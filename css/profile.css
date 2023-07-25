@@ -26,15 +26,15 @@
 }
 .profile-img {
   position: absolute;
-  right: 2vw;
-  top: 18vh;
+  right: 13vw;
+  top: 10vh;
   z-index: 5;
 
-  height: 62vh;
-  width: 40vw !important;
-  background-image: url(/img/people.jpg);
+  height: 66vh;
+  width: 27vw !important;
+  background-image: url(/img/Petrov_Tihomir-S.jpg);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
   background-size: contain;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
