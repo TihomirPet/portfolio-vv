@@ -76,7 +76,7 @@
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .bord-one {
-    height: 7vh;
+    height: 6vh;
     background-image: url(/img/wall.png);
     background-repeat: no-repeat;
     background-size: auto 120vh;
@@ -84,7 +84,7 @@
     border-right: 1px solid rgba(255, 255, 255, 0.3);
   }
   .bord-two {
-    height: 85vh !important;
+    height: 86vh !important;
     /* background-image: url(/img/wall.jpg);
   background-position: center;
   background-repeat: no-repeat;
