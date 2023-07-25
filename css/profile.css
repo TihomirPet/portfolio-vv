@@ -97,13 +97,13 @@
   }
   .profile-img {
     position: absolute;
-    right: 2vw;
-    top: 18vh;
+    right: 7vw;
+    top: 12vh;
     z-index: 5;
 
-    height: 49vh;
-    width: 38vw !important;
-    background-image: url(/img/people-2588064\ 1.jpg);
+    height: 59vh;
+    width: 29vw !important;
+    background-image: url(/img/Petrov_Tihomir-S.jpg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
