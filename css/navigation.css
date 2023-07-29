@@ -29,13 +29,19 @@
     border-left: 1px solid rgba(0, 0, 0, 0.3);
   height: 7vh;
 }
-.n-link {
+.nav-link{
   color: black !important;
   text-decoration: none;
   font-family: 'JosrRegular';
   font-size: 0.8vw;
 }
-.n-link:hover {
+.nav-link:active,.nav-link:visited{
+  color: black !important;
+  text-decoration: none;
+  font-family: 'JosrRegular';
+  font-size: 0.8vw !important;
+}
+.nav-link:hover {
   color: black !important;
   text-decoration: none;
   font-family: 'JosrRegular';
@@ -103,11 +109,25 @@
 }
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .n-link {
+  /* .n-link {
   color: black !important;
   text-decoration: none;
   font-family: 'JosrRegular';
   font-size: 5vw;
+} */
+
+.nav-link:active,.nav-link:visited{
+  color: black !important;
+  text-decoration: none;
+  font-family: 'JosrRegular';
+  font-size: 3.8vw !important;
+}
+.nav-link:hover {
+  color: black !important;
+  text-decoration: none;
+  font-family: 'JosrRegular';
+  font-size:3.8vw;
+  border-bottom: none;
 }
 
 }
