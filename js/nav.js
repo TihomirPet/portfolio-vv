@@ -11,4 +11,4 @@ fetch('./navbar.html')
   nav.innerHTML=data
     //   nav.insertAdjacentHTML('beforeend', data);
   });
-console.log(nav);
+// console.log(nav);

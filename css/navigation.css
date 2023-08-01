@@ -102,10 +102,35 @@
 
     width: 2vw;
   }
+  .nav-link:active,.nav-link:visited{
+  color: black !important;
+  text-decoration: none;
+  font-family: 'JosrRegular';
+  font-size: 2vw !important;
+}
+.nav-link:hover {
+  color: black !important;
+  text-decoration: none;
+  font-family: 'JosrRegular';
+  font-size:2vw;
+  border-bottom: none;
+}
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-
+.nav-link:active,.nav-link:visited{
+  color: black !important;
+  text-decoration: none;
+  font-family: 'JosrRegular';
+  font-size: 3.8vw !important;
+}
+.nav-link:hover {
+  color: black !important;
+  text-decoration: none;
+  font-family: 'JosrRegular';
+  font-size:3.8vw;
+  border-bottom: none;
+}
 }
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
