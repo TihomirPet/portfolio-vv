@@ -39,7 +39,8 @@
   color: black !important;
   text-decoration: none;
   font-family: 'JosrRegular';
-  font-size: 0.8vw !important;
+  font-size: 0.8vw ;
+    border-bottom: none;
 }
 .nav-link:hover {
   color: black !important;
@@ -85,6 +86,19 @@
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
+    .nav-link:active,.nav-link:visited{
+  color: black !important;
+  text-decoration: none;
+  font-family: 'JosrRegular';
+  font-size: 1.5vw !important;
+}
+.nav-link:hover {
+  color: black !important;
+  text-decoration: none;
+  font-family: 'JosrRegular';
+  font-size:1.5vw;
+  border-bottom: none;
+}
 }
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
