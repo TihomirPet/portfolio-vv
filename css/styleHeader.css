@@ -14,21 +14,31 @@
 .bord-one {
   height: 92vh;
   background-color: hsl(69, 18%, 92%);
+  /* background-color: hsl(0, 0%, 0%); */
+
 
   /* background-color: rgb(31, 31, 31); */
 }
 .bord-two {
   height: 92vh;
+   
+  width: auto;
+  background-image: url(/img/Petrov_Tihomir.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  transition: all 3s ease-out;
+
 }
 #background {
   background-color: hsl(40, 88%, 55%, 0.78);
 
-  transition: all 3s ease-out;
 }
 .bord-three {
   height: 92vh;
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   background-color: rgb(238, 239, 232);
+ /* background-color: hsl(40, 88%, 55%, 0.78); */
 }
 
 .bord-down-one {
@@ -43,6 +53,7 @@
 .bord-down-two {
   height: 8vh;
   background-color: #eeefe8;
+
 
   border-right: 1px solid rgb(10, 10, 13, 0.5);
   border-top: 1px solid rgb(10, 10, 13, 0.3);
@@ -77,12 +88,14 @@
     border-right: 1px solid rgba(255, 255, 255, 0.3);
   }
   .bord-two {
-    height: 86vh !important;
-    /* background-image: url(/img/wall.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto 120vh;
-  background-position: -17vw 0vh; */
+     height: 86vh !important;
+    background-image: url(/img/Petrov_Tihomir.png);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    /* background-position: -74vw 0vh; */
+        background-position: -60vw 0vh;
+      
   }
   .header-video {
     position: absolute;
@@ -97,6 +110,14 @@
     /* z-index: 4; */
     visibility: visible;
   }
+  .bord-down-two {
+  height: 8vh;
+   background-color: hsl(40, 88%, 55%, 0.9);
+
+
+  border-right: 1px solid rgb(10, 10, 13, 0.5);
+  border-top: 1px solid rgb(10, 10, 13, 0.3);
+}
 }
 
 /* // XX-Large devices (larger desktops) */
