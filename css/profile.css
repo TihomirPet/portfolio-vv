@@ -27,17 +27,17 @@
 }
 .profile-img {
   position: absolute;
-  right: 13vw;
-  top: 10vh;
+  right: 10vw !important;
+  top: 3vh;
   z-index: 5;
 
-  height: 66vh;
-  width: 27vw !important;
-  background-image: url(/img/Petrov_Tihomir-S.jpg);
+  height: 95vh;
+  width: auto;
+  background-image: url(/img/portrait.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-size: contain;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  /* border: 1px solid rgba(255, 255, 255, 0.2); */
 }
 
 /* X-Large devices (large desktops, less than 1400px) */
@@ -63,16 +63,16 @@
   .profile-img {
     position: absolute;
     right: 12vw;
-    top: 18vh;
+    top: 12vh;
     z-index: 5;
 
-    height: 60vh;
-    width: 28vw !important;
-    background-image: url(/img/Petrov_Tihomir-S.jpg);
+    height: 99vh;
+    /* width: 28vw !important; */
+    background-image: url(/img/portrait.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* border: 1px solid rgba(255, 255, 255, 0.2); */
   }
 }
 /* Large devices (desktops, less than 1200px) */
@@ -100,17 +100,17 @@
   }
   .profile-img {
     position: absolute;
-    right: 7vw;
+    right: 2vw !important;
     top: 12vh;
     z-index: 5;
 
-    height: 59vh;
-    width: 29vw !important;
-    background-image: url(/img/Petrov_Tihomir-S.jpg);
+    height: 80vh;
+    /* width: 29vw !important; */
+    background-image: url(/img/portrait.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* border: 1px solid rgba(255, 255, 255, 0.2); */
   }
 }
 /* Small devices (landscape phones, less than 768px) */
@@ -139,11 +139,11 @@
 
     height: 54vh;
 
-    background-image: url(/img/Petrov_Tihomir-S.jpg);
+    background-image: url(/img/portrait.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* border: 1px solid rgba(255, 255, 255, 0.2); */
   }
 }
 

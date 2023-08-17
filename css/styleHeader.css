@@ -13,20 +13,15 @@
 
 .bord-one {
   height: 92vh;
-  background-color: rgb(238, 239, 232);
-  /* background-color: hsl(0, 0%, 100%); */
+  background-color: hsl(69, 18%, 92%);
+
+  /* background-color: rgb(31, 31, 31); */
 }
 .bord-two {
   height: 92vh;
-
 }
 #background {
-  /* background-image: url(/img/wall-SP.png);
-
-
-  background-size: cover; */
-
-      background-color:hsl(40, 88%, 55%,0.78);
+  background-color: hsl(40, 88%, 55%, 0.78);
 
   transition: all 3s ease-out;
 }
@@ -34,30 +29,28 @@
   height: 92vh;
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   background-color: rgb(238, 239, 232);
-    /* background-color: hsla(260, 52%, 45%, 0.78); */
-    /* background-color: hsl(182, 75%, 52%, 0.78); */
-    /* background-color: hsl(40, 88%, 55%, 0.78); */
-    /* background-color: hsl(0, 0%, 100%); */
-    /* background-color: hsl(0, 0%, 100%); */
-    
 }
 
 .bord-down-one {
   height: 8vh;
   background-color: #eeefe8;
-  /* background-color:rgb(234, 90, 41); */
+
   border-right: 1px solid rgb(10, 10, 13, 0.3);
+  /* border-right: 1px solid rgb(56, 56, 56); */
   border-top: 1px solid rgb(10, 10, 13, 0.3);
+  /* border-top: 1px solid rgb(56, 56, 56); */
 }
 .bord-down-two {
   height: 8vh;
   background-color: #eeefe8;
+
   border-right: 1px solid rgb(10, 10, 13, 0.5);
   border-top: 1px solid rgb(10, 10, 13, 0.3);
 }
 .bord-down-three {
   height: 8vh;
   background-color: #eeefe8;
+
   border-top: 1px solid rgb(10, 10, 13, 0.3);
 }
 

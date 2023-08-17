@@ -55,6 +55,7 @@ html {
 .font-titel {
   font-family: 'JosrLight';
   color: #ffffff;
+  /* color:      rgb(77, 76, 76); */
   font-size: 5.8vw;
   letter-spacing: 2.3vw;
 }
