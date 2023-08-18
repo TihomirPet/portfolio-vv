@@ -26,9 +26,11 @@
   background-position: left;
   background-size: contain;
   transition: all 3s ease-out;
+ 
 }
 #background {
   background-color: hsl(40, 88%, 55%, 0.78);
+
 }
 .bord-three {
   height: 92vh;
