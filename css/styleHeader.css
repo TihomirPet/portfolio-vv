@@ -60,6 +60,16 @@
 
 /* X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
+  .bord-two {
+  height: 92vh;
+  width: auto;
+  background-image: url(/img/Petrov_Tihomir.png);
+  background-repeat: no-repeat;
+   background-position: -123% 0%;
+  background-size: contain;
+  transition: all 3s ease-out;
+ 
+}
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
