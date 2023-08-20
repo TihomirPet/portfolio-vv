@@ -97,7 +97,7 @@
     background-repeat: no-repeat;
     background-size: auto 100%;
     /* background-position: -74vw 0vh; */
-    background-position: -60vw 0vh;
+    background-position:  top 0px right -60px;
   }
   .header-video {
     position: absolute;
