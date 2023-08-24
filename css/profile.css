@@ -80,6 +80,13 @@
     background-size: contain;
     /* border: 1px solid rgba(255, 255, 255, 0.2); */
   }
+  .profile-three {
+  height: auto;
+  background-image: url(/img/bg-profile-side.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
