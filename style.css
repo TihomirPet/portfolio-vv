@@ -30,7 +30,14 @@ html {
   font-family: 'RockSalt';
   src: url('/Fonts/RockSalt-Regular.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Homemsde';
+  src: url('/Fonts/HomemadeApple-Regular.ttf') format('truetype');
+}
 
+.Handwritten {
+  font-family: 'Homemsde';
+}
 .font-ComforterBrush-regular {
   font-family: 'JosrRegular';
 }
@@ -62,8 +69,8 @@ html {
 .font-titel-name {
   font-family: 'JosrLight';
   color: rgba(255, 255, 255, 0.9);
-  font-size: 1.7vw;
-  letter-spacing: 1.35vw;
+  font-size: 1.2vw;
+  /* letter-spacing: 1.35vw; */
 }
 .text-overlay {
   font-family: 'JosrLight';

@@ -17,17 +17,18 @@
 
 .nav-holder {
 
-    background-color: #eeefe8;
+    /* background-color: #eeefe8; */
+      background-color: var( --main-bg-color);
         /* background-color: rgb(31, 31, 31); */
     /* background-color: #ffffff; */
 }
 .nav-one {
-  border-right: 1px solid rgba(0, 0, 0, 0.3);
+  /* border-right: 1px solid rgba(0, 0, 0, 0.3); */
   height: 7vh;
 }
 
 .nav-three{
-    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    /* border-left: 1px solid rgba(0, 0, 0, 0.3); */
   height: 7vh;
 }
 .nav-link{
@@ -48,7 +49,7 @@
   text-decoration: none;
   font-family: 'JosrRegular';
   font-size: 0.8vw;
-  border-bottom: 1px solid rgb(12, 12, 12);
+  /* border-bottom: 1px solid rgb(12, 12, 12); */
 }
 .phone img:last-child {
   display: none;
