@@ -2,8 +2,7 @@
   --main-bg-color: hsl(42, 59%, 93%);
 }
 .header {
-  position: relative;
-  height: 100vh;
+
   background-color: var(--main-bg-color);
 }
 .header-overlay {
@@ -13,13 +12,14 @@
   height: 100vh;
   /* width: 100vw;
   z-index: 3; */
+   background-color: var(--main-bg-color);
 }
 
 .bord-one {
   height: 86vh;
 
   background-color: var(--main-bg-color);
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 .bord-one-content {
   height: 100%;
@@ -29,18 +29,16 @@
   border-radius: 15px;
 }
 .Profile_text_profile {
-/* writing-mode: vertical-rl;
-text-orientation: mixed; */
+
 transform: rotate(-90deg)  ;
 color: var(  --main-bg-color);
 font-size: 6vh;
 letter-spacing: 0.6vw;
 }
 .Profile_text_name {
-/* writing-mode: vertical-rl;
-text-orientation: mixed; */
+
 transform: rotate(-90deg)  ;
-  background-color: #f3ec78;
+  background-color: var(--main-bg-color);
     background-image: linear-gradient(45deg, #ffffff, #18223D);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -56,12 +54,14 @@ letter-spacing: 0.3vw;
 .bord-two {
   height: 86vh;
   width: auto;
+
   background-image: url(/img/TP_s1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   transition: all 3s ease-out;
   border-radius: 15px;
+  
 }
 /* #background {
   background-color: hsl(40, 88%, 55%, 0.78);

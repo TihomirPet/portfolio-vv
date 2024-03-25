@@ -20,11 +20,11 @@ html {
 }
 @font-face {
   font-family: 'JosrLight';
-  src: url('/Fonts/Geologica-Thin.ttf') format('truetype');
+  src: url('/Fonts/Lexend-Light.ttf') format('truetype');
 }
 @font-face {
   font-family: 'JosrRegular';
-  src: url('/Fonts/Geologica-Regular.ttf') format('truetype');
+  src: url('/Fonts/Lexend-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'RockSalt';
