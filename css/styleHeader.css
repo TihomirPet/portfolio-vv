@@ -1,5 +1,7 @@
 :root {
   --main-bg-color: hsl(42, 59%, 93%);
+  --second-bg-color: hsl(238, 82%, 64%);
+
 }
 .header {
 
@@ -39,12 +41,13 @@ letter-spacing: 0.6vw;
 
 transform: rotate(-90deg)  ;
   background-color: var(--main-bg-color);
-    background-image: linear-gradient(45deg, #ffffff, #18223D);
+    background-image: linear-gradient(45deg, #F87200, #b85601);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
+
 font-size: 3vh;
 letter-spacing: 0.3vw;
 
@@ -52,6 +55,13 @@ letter-spacing: 0.3vw;
 }
 
 .bord-two {
+  height: 86vh;
+  width: 100%;
+
+   background-color: var(--main-bg-color);
+  
+}
+.bord-two-holder {
   height: 86vh;
   width: auto;
 

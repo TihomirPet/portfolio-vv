@@ -1,19 +1,21 @@
 .steps {
   height: auto;
+     background-color: var(--second-bg-color);
+     color: rgb(255, 255, 255);
 }
 .steps-one {
   height: auto;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
 .steps-two {
   height: auto;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
 .steps-three {
   height: 100vh;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
 }
 
 /* X-Large devices (large desktops, less than 1400px) */
@@ -42,12 +44,12 @@
   }
   .steps-one {
     height: auto;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     border-right: 1px solid rgb(10, 10, 13, 0.3);
   }
   .steps-two {
     height: auto;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     border-right: 1px solid rgb(10, 10, 13, 0.3);
   }
 }
@@ -66,12 +68,12 @@
   }
   .steps-one {
     height: 10vh;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     border-right: 1px solid rgb(10, 10, 13, 0.3);
   }
   .steps-two {
     height: auto !important;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     border-right: 1px solid rgb(10, 10, 13, 0.3);
   }
 }

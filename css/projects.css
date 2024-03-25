@@ -1,13 +1,13 @@
 .projects {
-  height: 100vh;
-  background-color: #eeefe8;
+  height: auto;
+   background-color: var(--main-bg-color);
 }
 .projects-one {
   border-right: 1px solid rgb(10, 10, 13, 0.3);
   height: 100vh;
 }
 .projects-two {
-  height: 100vh;
+  height: auto;
 }
 .projects-img-holder {
   /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
