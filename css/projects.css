@@ -1,31 +1,30 @@
 .projects {
   height: auto;
-   background-color: var(--main-bg-color);
+  background-color: var(--main-bg-color);
 }
 .projects-one {
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
-  height: 100vh;
+  /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
+  height: auto;
 }
 .projects-two {
   height: auto;
 }
 .projects-img-holder {
   /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
-  border-bottom: 1px solid rgb(10, 10, 13, 0.3);
+  /* border-bottom: 1px solid rgb(10, 10, 13, 0.3); */
 }
 .projects-img-one {
-  height: 92vh;
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  height: 80vh;
+  /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
 }
- .projects-three{
-
-    border-left: 1px solid rgb(10, 10, 13, 0.3);
-  }
+.projects-three {
+  /* border-left: 1px solid rgb(10, 10, 13, 0.3); */
+}
 .projects-contact {
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
 }
 .projects-contact-one {
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
   height: 8vh;
 }
 .projects-contact-two {
@@ -34,7 +33,12 @@
 }
 .img-hover {
   text-decoration: none;
-  color: black;
+  color: #000000;
+  -webkit-box-shadow: 2px 7px 13px -8px #020205;
+  box-shadow: 2px 7px 13px -8px #020205;
+  /* border:solid 1px #000; */
+  border-radius: 10px;
+  /* background-color: #000; */
 }
 .img-hover:hover {
   text-decoration: none;
@@ -43,18 +47,35 @@
 .img-hover-zoom {
   height: 33vh; /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 /* [2] Transition property for smooth transformation of images */
 .img-hover img {
   transition: transform 0.5s ease;
   /* filter: grayscale(90%); */
+  /* border-radius: 10px; */
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
 .img-hover:hover img {
   transform: scale(1.1);
-  /* filter: grayscale(0%); */
+  filter: grayscale(0%);
+}
+
+.projects-title {
+  transform: rotate(-90deg);
+  background-color: var(--main-bg-color);
+  background-image: linear-gradient(45deg, #ff8b03, #ff8b03);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+  font-size: 3vh;
+  letter-spacing: 0.3vw;
 }
 
 /* X-Large devices (large desktops, less than 1400px) */
@@ -68,7 +89,7 @@
     height: 9vh;
   }
   .projects-contact-one {
-    border-right: 1px solid rgb(10, 10, 13, 0.3);
+    /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
     height: 7vh;
   }
   .projects-contact-two {
@@ -89,7 +110,7 @@
     background-color: #eeefe8;
   }
   .projects-contact-one {
-    border-right: 1px solid rgb(10, 10, 13, 0.3);
+    /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
     height: 9vh;
   }
   .projects-contact-two {
@@ -107,20 +128,20 @@
     background-color: #eeefe8;
   }
   .projects-one {
-    border-right: 1px solid rgb(10, 10, 13, 0.3);
+    /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
     height: 10vh;
   }
   .projects-contact-one {
-    border-bottom: 1px solid rgb(10, 10, 13, 0.3);
+    /* border-bottom: 1px solid rgb(10, 10, 13, 0.3); */
     height: 8vh;
   }
   .projects-img-one {
     height: 40vh;
-    border-right: 1px solid rgb(10, 10, 13, 0.3);
+    /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
   }
   .projects-img-two {
     height: 40vh;
-    border-right: 1px solid rgb(10, 10, 13, 0.3);
+    /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
   }
   .img-hover-zoom {
     height: 23vh; /* [1.1] Set it as per your need */

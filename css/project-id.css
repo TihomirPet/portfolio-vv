@@ -15,6 +15,7 @@
 
 .projects-id-img {
   width: 100%;
+  border-radius: 8px;
 }
 .project-id-top {
   height: 18vh;
@@ -28,7 +29,7 @@
 .project-id-mobile {
   position: relative;
   height: 100vh;
-  background-color: #eeefe8;
+  background-color: var(--main-bg-color);
   /* border-top: 1px solid rgb(10, 10, 13, 0.3); */
 }
 .project-id-mobile-one {
