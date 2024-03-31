@@ -67,7 +67,7 @@
 .projects-title {
   transform: rotate(-90deg);
   background-color: var(--main-bg-color);
-  background-image: linear-gradient(45deg, #ff8b03, #ff8b03);
+  background-image: linear-gradient(45deg, #000000, #000000);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;

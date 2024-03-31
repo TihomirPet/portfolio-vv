@@ -16,6 +16,7 @@
 .projects-id-img {
   width: 100%;
   border-radius: 8px;
+  height: auto;
 }
 .project-id-top {
   height: 18vh;
@@ -55,6 +56,7 @@
  height: 68vh; /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
      border-radius: 0.7vw;
+     border:3px solid #000000
 }
 
 /* [2] Transition property for smooth transformation of images */
