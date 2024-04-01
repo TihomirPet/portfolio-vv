@@ -34,9 +34,10 @@
 .img-hover {
   text-decoration: none;
   color: #000000;
-  -webkit-box-shadow: 2px 7px 13px -8px #020205;
-  box-shadow: 2px 7px 13px -8px #020205;
-  /* border:solid 1px #000; */
+  -webkit-box-shadow: 2px 7px 18px -10px rgb(2, 2, 5,0.3);
+  box-shadow: 2px 7px 18px -10px rgb(2, 2, 5,0.3);
+
+  border: solid 1px hsla(0, 0%, 3%, 0.4);
   border-radius: 10px;
   /* background-color: #000; */
 }
@@ -73,7 +74,6 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-
   font-size: 3vh;
   letter-spacing: 0.3vw;
 }
