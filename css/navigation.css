@@ -79,20 +79,26 @@
   }
 /* X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
-  .n-link {
+  .nav-link {
   color: black !important;
   text-decoration: none;
   font-family: 'JosrRegular';
-  font-size: 1vw !important;
+  font-size: 1vw ;
 }
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-    .nav-link:active,.nav-link:visited{
+  .nav-link{
   color: black !important;
   text-decoration: none;
   font-family: 'JosrRegular';
-  font-size: 1vw !important;
+  font-size: 1.3vw !important;
+}
+    /* .nav-link:active,.nav-link:visited{
+  color: black !important;
+  text-decoration: none;
+  font-family: 'JosrRegular';
+  font-size: 1vw ;
 }
 .nav-link:hover {
   color: black !important;
@@ -100,7 +106,7 @@
   font-family: 'JosrRegular';
   font-size:1vw;
   border-bottom: none;
-}
+} */
 .nav-one {
   /* border-right: 1px solid rgba(0, 0, 0, 0.3); */
   height: 6vh;
@@ -121,11 +127,11 @@
 }
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-  .n-link {
+  .nav-link {
   color: black !important;
   text-decoration: none;
   font-family: 'JosrRegular';
-  font-size: 1vw !important;
+  font-size: 2vw !important;
 }
     .phone-img{
 
@@ -145,7 +151,7 @@
   color: black !important;
   text-decoration: none;
   font-family: 'JosrRegular';
-  font-size:2vw;
+  font-size: 2vw !important;
   border-bottom: none;
 }
 }
@@ -161,7 +167,7 @@
   color: black !important;
   text-decoration: none;
   font-family: 'JosrRegular';
-  font-size:3.8vw;
+  font-size:3.8vw !important;
   border-bottom: none;
 }
     .phone-img{
@@ -186,7 +192,7 @@
   color: black !important;
   text-decoration: none;
   font-family: 'JosrRegular';
-  font-size: 3.8vw !important;
+  font-size: 3.8vw ;
 }
 .nav-link:hover {
   color: black !important;

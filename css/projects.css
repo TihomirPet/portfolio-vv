@@ -102,6 +102,12 @@
 }
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+  .img-hover-zoom {
+    height: 29vh;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
   .projects-two {
     height: auto;
   }
