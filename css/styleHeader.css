@@ -176,14 +176,15 @@
     background-position: 0vw 0vh;
     border-right: 1px solid rgba(255, 255, 255, 0.3);
   } */
-  .bord-two {
+  .bord-two-holder {
     height: 100%;
     background-image: url(/img/TP_s1.jpg);
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: auto 100%;
     /* background-position: -74vw 0vh; */
-    background-position: top 0px right -60px;
+    background-position: top 0px right -70px;
+    border-radius: 0px;
   }
 
   .bord-down-two {
