@@ -25,11 +25,18 @@ function el(css){
  document.getElementById('button1').addEventListener('click', function () {
    sendDataToB('div1', 'active');
  });
-
- // Event listener function for Button 2
+  // Event listener function for Button 2
  document.getElementById('button2').addEventListener('click', function () {
    sendDataToB('div2', 'active');
  });
+ document.getElementById('button3').addEventListener('click', function () {
+   sendDataToB('div3', 'active');
+ });
+ document.getElementById('button4').addEventListener('click', function () {
+   sendDataToB('div4', 'active');
+ });
+
+
 
  // Function to handle sending data to b.html using Local Storage
  function sendDataToB(targetId, newClassName) {
