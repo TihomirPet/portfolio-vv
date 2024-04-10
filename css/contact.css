@@ -14,8 +14,8 @@
   color: #ffffff;
 }
 .contact-holder:hover {
-  background-color: #fff;
-   color: #000;
+  /* background-color: #fff; */
+   /* color: #000; */
 }
 .contact :nth-child(2) {
   display: none;

@@ -168,14 +168,14 @@
 }
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .bord-one {
+  /* .bord-one {
     height: 6vh;
     background-image: url(/img/wall.png);
     background-repeat: no-repeat;
     background-size: auto 120vh;
     background-position: 0vw 0vh;
     border-right: 1px solid rgba(255, 255, 255, 0.3);
-  }
+  } */
   .bord-two {
     height: 100%;
     background-image: url(/img/TP_s1.jpg);
@@ -188,10 +188,10 @@
 
   .bord-down-two {
     height: 8vh;
-    background-color: hsl(40, 88%, 55%, 0.9);
+    /* background-color: hsl(40, 88%, 55%, 0.9); */
 
-    border-right: 1px solid rgb(10, 10, 13, 0.5);
-    border-top: 1px solid rgb(10, 10, 13, 0.3);
+    /* border-right: 1px solid rgb(10, 10, 13, 0.5);
+    border-top: 1px solid rgb(10, 10, 13, 0.3); */
   }
 }
 

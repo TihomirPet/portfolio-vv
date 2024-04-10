@@ -157,6 +157,12 @@
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .nav-link {
+  color: black !important;
+  text-decoration: none;
+  font-family: 'JosrRegular';
+  font-size: 6vw;
+}
 .nav-link:active,.nav-link:visited{
   color: black !important;
   text-decoration: none;
@@ -181,12 +187,12 @@
 }
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  /* .n-link {
+.nav-link{
   color: black !important;
   text-decoration: none;
   font-family: 'JosrRegular';
-  font-size: 5vw;
-} */
+  font-size: 3.8vw !important;
+}
 
 .nav-link:active,.nav-link:visited{
   color: black !important;
