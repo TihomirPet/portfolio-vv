@@ -3,10 +3,11 @@
   height: 100vh;
 }
 .project-id-two {
+  border-left: 1px solid rgb(10, 10, 13, 0.3);
 }
 .project-id-one {
   height: 100vh;
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
 }
 .project-id-three {
   height: 100vh;
@@ -19,31 +20,40 @@
   height: auto;
 }
 .project-id-top {
-  height: 18vh;
+  height: 19vh;
   border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
 .project-id-bottom {
-  height: 16vh;
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  height: 100%;
+  /* border-left: 1px solid rgb(10, 10, 13, 0.3); */
+}
+.project-id-bottom-column{
+  height: 100%; 
+    border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
 
 .project-id-mobile {
   position: relative;
-  height: 100vh;
+  height: auto;
   background-color: var(--main-bg-color);
   /* border-top: 1px solid rgb(10, 10, 13, 0.3); */
 }
 .project-id-mobile-one {
-  height: 100vh;
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  height: 100%;
+  /* border-right: 1px solid rgba(4, 4, 247, 0.3); */
 }
 .project-id-mobile-two {
-  height: 100vh;
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  height: auto;
+  /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
+  border-left: 1px solid rgb(10, 10, 13, 0.3);
+}
+.project-id-mobile-three {
+    border-left: 1px solid rgb(10, 10, 13, 0.3);
 }
 .project-id-mobile-vour {
-  height: 100vh;
+  height: auto;
   border-left: 1px solid rgb(10, 10, 13, 0.3);
+
    /* border-radius: 0.7vw; */
 }
 .projects-id-mobile-img{
@@ -94,12 +104,12 @@
   .project-id-mobile {
   position: relative;
   height: auto;
-  background-color: #eeefe8;
+  /* background-color: #eeefe8; */
 
 }
 .project-id-one {
   height: auto;
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
 }
 .project-id-mobile-two {
   height: auto;
@@ -111,7 +121,7 @@
 }
 .project-id-bottom {
   height: 25vh;
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
 }
 .projects-id-mobile-img{
   height: 90vh;
@@ -130,12 +140,12 @@
 }
 .project-id-one {
   height: auto;
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
 }
 .project-id-mobile {
   position: relative;
   height: auto;
-  background-color: #eeefe8;
+  /* background-color: #eeefe8; */
 
 }
 .project-id-mobile-two {
@@ -148,8 +158,9 @@
 }
 .project-id-bottom {
   height: 25vh;
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
 }
+
 .projects-id-mobile-img{
   height: 90vh;
   border-radius: 0.9vw;
@@ -187,11 +198,11 @@
   .project-id-mobile {
   position: relative;
   height: auto;
-  background-color: #eeefe8;
+  /* background-color: #eeefe8; */
   /* border-top: 1px solid rgb(10, 10, 13, 0.3); */
 }
 .project-id-mobile-one {
-  height: auto;
+  height: 100%;
   border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
 .project-id-mobile-vour {
