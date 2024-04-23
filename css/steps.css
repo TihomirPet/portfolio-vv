@@ -9,7 +9,9 @@
   border-right: 1px solid rgb(10, 10, 13, 0.3);
 }
 .steps-title{
-  transform: rotate(-90deg)  ;
+  /* transform: rotate(-90deg)  ; */
+    writing-mode: vertical-rl;
+  text-orientation: upright; 
   background-color: var(--main-bg-color);
     background-image: linear-gradient(45deg, #c4af9c, #fcfcfc);
     background-size: 100%;

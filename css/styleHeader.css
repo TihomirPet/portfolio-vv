@@ -23,28 +23,54 @@
 .bord-one-content {
   height: 100%;
   width: 100%;
-  background-color: #575cee;
+  background-color:var(  --second-bg-color);
 
   border-radius: 15px;
 }
 .Profile_text_profile {
-  transform: rotate(-90deg);
+  /* transform: rotate(-90deg); */
+    writing-mode: vertical-rl;
+  text-orientation: upright;
   color: var(--main-bg-color);
-  font-size: 6vh;
-  letter-spacing: 0.6vw;
+  
+  font-size: 3vh;
+  letter-spacing: -0.2vw;
 }
-.Profile_text_name {
-  transform: rotate(-90deg);
-  background-color: var(--main-bg-color);
-  background-image: linear-gradient(45deg, #b85601, #b85601);
+.Profile_text_span {
+  /* transform: rotate(-90deg); */
+       writing-mode: vertical-rl;
+  text-orientation: upright;
+  /* color: var(--main-bg-color); */
+    /* background-color: var(--main-bg-color);
+  background-image: linear-gradient(45deg, #ff7801, #ffe5cf);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  -moz-text-fill-color: transparent; */
+    color: #fff; 
+ text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+  font-size: 4vh;
+  letter-spacing: -0.4vw;
+}
+.Profile_text_name {
+  /* transform: rotate(-90deg); */
+      writing-mode: vertical-rl;
+  text-orientation: upright;
 
-  font-size: 3vh;
-  letter-spacing: 0.3vw;
+  color: var(--main-bg-color);
+
+  font-size: 2.2vh;
+  letter-spacing: -0.1vw;
+  /* opacity: 0.6; */
 }
 
 .bord-two {
@@ -57,7 +83,7 @@
   height: 100%;
   width: auto;
 
-  background-image: url(/img/TP_s1.jpg);
+  background-image: url(/img/TPBT.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -76,7 +102,7 @@
 .bord-three-content {
   height: 100%;
   width: 100%;
-  background-color: #ff8b03;
+  background-color:var(  --second-bg-color);
 
   border-radius: 15px;
 }
@@ -108,7 +134,7 @@
   .bord-two {
     height: 100%;
     width: auto;
-    background-image: url(/img/TP_s1.jpg);
+    background-image: url(/img/TPBT.jpg);
     background-repeat: no-repeat;
     background-position: -123% 0%;
     background-size: contain;
@@ -142,7 +168,7 @@
   .bord-two {
     height: 100%;
     width: auto;
-    background-image: url(/img/TP_s1.jpg);
+    background-image: url(/img/TPBT.jpg);
     background-repeat: no-repeat;
     background-position: -2% 0%;
     background-size: contain;
@@ -178,7 +204,7 @@
   } */
   .bord-two-holder {
     height: 100%;
-    background-image: url(/img/TP_s1.jpg);
+    background-image: url(/img/TPBT.jpg);
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: auto 100%;
