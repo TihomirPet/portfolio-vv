@@ -1,12 +1,12 @@
 .steps {
   height: auto;
-     background-color: var(--second-bg-color);
+     background-color: var(--third-bg-color);
      color: rgb(255, 255, 255);
 }
 .steps-one {
   height: auto;
   /* background-color: rgb(255, 255, 255); */
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  border-right: 1px solid hsl(42, 59%, 93%,0.2);
 }
 .steps-title{
   /* transform: rotate(-90deg)  ; */
@@ -26,7 +26,7 @@ letter-spacing: 0.3vw;
 .steps-two {
   height: auto;
   /* background-color: rgb(255, 255, 255); */
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  border-right: 1px solid hsl(42, 59%, 93%,0.2);
 }
 .steps-three {
   height: 100vh;
@@ -41,12 +41,12 @@ letter-spacing: 0.3vw;
   .steps-one {
   height: auto;
   /* background-color: rgb(255, 255, 255); */
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
 }
 .steps-two {
   height: auto;
   /* background-color: rgb(255, 255, 255); */
-  border-right: 1px solid rgb(10, 10, 13, 0.3);
+  /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
 }
 }
 /* Large devices (desktops, less than 1200px) */
@@ -60,12 +60,12 @@ letter-spacing: 0.3vw;
   .steps-one {
     height: auto;
     /* background-color: rgb(255, 255, 255); */
-    border-right: 1px solid rgb(10, 10, 13, 0.3);
+    /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
   }
   .steps-two {
     height: auto;
     /* background-color: rgb(255, 255, 255); */
-    border-right: 1px solid rgb(10, 10, 13, 0.3);
+    /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
   }
 }
 /* Small devices (landscape phones, less than 768px) */
@@ -84,12 +84,12 @@ letter-spacing: 0.3vw;
   .steps-one {
     height: 10vh;
     /* background-color: rgb(255, 255, 255); */
-    border-right: 1px solid rgb(10, 10, 13, 0.3);
+    /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
   }
   .steps-two {
     height: auto !important;
     /* background-color: rgb(255, 255, 255); */
-    border-right: 1px solid rgb(10, 10, 13, 0.3);
+    /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
   }
 }
 
