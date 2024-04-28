@@ -1,7 +1,7 @@
 :root {
   --main-bg-color: hsl(42, 59%, 93%);
   --second-bg-color: hsl(238, 82%, 64%);
-  --third-bg-color:hsl(245, 9%, 27%);
+  --third-bg-color: hsl(245, 9%, 27%);
 }
 .header {
   background-color: var(--main-bg-color);
@@ -24,47 +24,40 @@
 .bord-one-content {
   height: 100%;
   width: 100%;
-  background-color:var(  --second-bg-color);
+  background-color: var(--second-bg-color);
 
   border-radius: 15px;
 }
 .Profile_text_profile {
   /* transform: rotate(-90deg); */
-    writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
   text-orientation: upright;
   color: var(--main-bg-color);
-  
+
   font-size: 3vh;
   letter-spacing: -0.2vw;
 }
 .Profile_text_span {
   /* transform: rotate(-90deg); */
-       writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
   text-orientation: upright;
   /* color: var(--main-bg-color); */
-    /* background-color: var(--main-bg-color);
+  /* background-color: var(--main-bg-color);
   background-image: linear-gradient(45deg, #ff7801, #ffe5cf);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent; */
-    color: #fff; 
- text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #0fa,
-      0 0 82px #0fa,
-      0 0 92px #0fa,
-      0 0 102px #0fa,
-      0 0 151px #0fa;
-  font-size: 4vh;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  font-size: 3.8vh;
   letter-spacing: -0.4vw;
 }
 .Profile_text_name {
   /* transform: rotate(-90deg); */
-      writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
   text-orientation: upright;
 
   color: var(--main-bg-color);
@@ -103,7 +96,7 @@
 .bord-three-content {
   height: 100%;
   width: 100%;
-  background-color:var(  --second-bg-color);
+  background-color: var(--second-bg-color);
 
   border-radius: 15px;
 }
@@ -135,7 +128,7 @@
   .bord-two {
     height: 100%;
     width: auto;
-    background-image: url(/img/TPBT.jpg);
+    background-image: url(/img/TPBL.jpg);
     background-repeat: no-repeat;
     background-position: -123% 0%;
     background-size: contain;
@@ -143,7 +136,9 @@
     border-radius: 15px;
   }
   .Profile_text_profile {
-    transform: rotate(-90deg);
+    /* transform: rotate(-90deg); */
+    writing-mode: vertical-rl;
+    text-orientation: upright;
     color: var(--main-bg-color);
     font-size: 3vh;
     letter-spacing: 0.6vw;
@@ -151,6 +146,16 @@
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
+     .Profile_text_span {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+    font-size: 2.9vh;
+    letter-spacing: -0.4vw;
+  }
   .header-holder {
     /* height: 100%; */
     height: 86%;
@@ -160,16 +165,27 @@
 }
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-  .header-holder {
-  /* height: 100%; */
-  height: 83%;
+ 
+  .Profile_text_span {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
 
-  background-color: var(--main-bg-color);
-}
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+    font-size: 2.8vh;
+    letter-spacing: -0.4vw;
+  }
+  .header-holder {
+    /* height: 100%; */
+    height: 83%;
+
+    background-color: var(--main-bg-color);
+  }
   .bord-two {
     height: 100%;
     width: auto;
-    background-image: url(/img/TPBT.jpg);
+    background-image: url(/img/TPBL.jpg);
     background-repeat: no-repeat;
     background-position: -2% 0%;
     background-size: contain;
@@ -192,6 +208,16 @@
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+  .Profile_text_span {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+    font-size: 2.5vh;
+    letter-spacing: -0.4vw;
+  }
 }
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -203,9 +229,19 @@
     background-position: 0vw 0vh;
     border-right: 1px solid rgba(255, 255, 255, 0.3);
   } */
+  .Profile_text_span {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+    font-size: 2.5vh;
+    letter-spacing: -0.4vw;
+  }
   .bord-two-holder {
     height: 100%;
-    background-image: url(/img/TPBT.jpg);
+    background-image: url(/img/TPBL.jpg);
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: auto 100%;
