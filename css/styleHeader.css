@@ -1,6 +1,7 @@
 :root {
   --main-bg-color: hsl(42, 59%, 93%);
   --second-bg-color: hsl(238, 82%, 64%);
+  --second-bg-color: #060815;
   --third-bg-color: hsl(245, 9%, 27%);
 }
 .header {
@@ -18,15 +19,19 @@
 .bord-one {
   height: auto;
 
-  background-color: var(--main-bg-color);
+  /* background-color: var(--main-bg-color); */
   /* border-radius: 15px; */
 }
 .bord-one-content {
   height: 100%;
   width: 100%;
-  background-color: var(--second-bg-color);
 
+  background-image: url(/img/annieR.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
   border-radius: 15px;
+  background-color: var(--second-bg-color);
 }
 .Profile_text_profile {
   /* transform: rotate(-90deg); */
@@ -50,8 +55,10 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent; */
   color: #fff;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #d35f39,
+    0 0 82px #d35f39, 0 0 92px #d35f39, 0 0 102px #d35f39, 0 0 151px #d35f39;
+  /* text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa; */
   font-size: 3.8vh;
   letter-spacing: -0.4vw;
 }
@@ -77,9 +84,9 @@
   height: 100%;
   width: auto;
 
-  background-image: url(/img/TPBL.jpg);
+  background-image: url(/img/TPBLD.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-size: cover;
   transition: all 3s ease-out;
   border-radius: 15px;
@@ -96,8 +103,11 @@
 .bord-three-content {
   height: 100%;
   width: 100%;
-  background-color: var(--second-bg-color);
-
+  /* background-color: var(--second-bg-color); */
+  background-image: url(/img/bangsalW.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
   border-radius: 15px;
 }
 
@@ -128,7 +138,7 @@
   .bord-two {
     height: 100%;
     width: auto;
-    background-image: url(/img/TPBL.jpg);
+    background-image: url(/img/TPBLP.jpg);
     background-repeat: no-repeat;
     background-position: -123% 0%;
     background-size: contain;
@@ -146,7 +156,7 @@
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-     .Profile_text_span {
+  .Profile_text_span {
     writing-mode: vertical-rl;
     text-orientation: upright;
 
@@ -165,7 +175,6 @@
 }
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
- 
   .Profile_text_span {
     writing-mode: vertical-rl;
     text-orientation: upright;
@@ -185,7 +194,7 @@
   .bord-two {
     height: 100%;
     width: auto;
-    background-image: url(/img/TPBL.jpg);
+    background-image: url(/img/TPBLP.jpg);
     background-repeat: no-repeat;
     background-position: -2% 0%;
     background-size: contain;
