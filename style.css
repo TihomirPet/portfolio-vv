@@ -87,6 +87,7 @@ html {
 .font-text {
   font-family: 'JosrLight';
   font-size: 0.8vw;
+  font-weight: 100;
 }
 
 .font-20 {
@@ -98,12 +99,15 @@ html {
 }
 
 .font-48-83 {
-  font-size: 2.1vw;
+  font-size: 2.9vw;
 }
 /* ==================== Colours ============================================*/
 
 .orange {
   color: #ed8e35;
+}
+.yellow {
+  color: #F4B600;
 }
 .white {
   color: rgb(255, 255, 255, 0.7);

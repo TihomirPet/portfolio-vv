@@ -60,7 +60,7 @@
 .bord-two-holder {
   height: 100%;
   width: auto;
-  background-image: url(/img/TPBLO.jpg);
+  background-image: url(/img/TPBLP.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
@@ -84,19 +84,19 @@
 }
 
 .bord-down-one {
-  height: 7vh;
+  height: 15vh;
   /* background-color: var(--main-bg-color); */
   /* border-right: 1px solid rgb(10, 10, 13, 0.3);
   border-top: 1px solid rgb(10, 10, 13, 0.3); */
 }
 .bord-down-two {
-  height: 7vh;
+  height: 15vh;
   background-color: var(--main-bg-color);
   /* border-right: 1px solid rgb(10, 10, 13, 0.5);
   border-top: 1px solid rgb(10, 10, 13, 0.3); */
 }
 .bord-down-three {
-  height: 7vh;
+  height: 15vh;
   /* background-color: #eeefe8; */
   background-color: var(--main-bg-color);
   /* border-top: 1px solid rgb(10, 10, 13, 0.3); */
