@@ -48,33 +48,14 @@ background-color: #132335;
   }
   .profile-one {
     height: 105vh;
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    /* border-right: 1px solid rgba(255, 255, 255, 0.2); */
   }
   .profile-two {
     height: 105vh;
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    /* border-right: 1px solid rgba(255, 255, 255, 0.2); */
   }
-  .profile-img {
-    position: absolute;
-    right: 4vw !important;
-    top: 5vh;
-    z-index: 5;
 
-    height: 99vh;
-    /* width: 28vw !important; */
-    background-image: url(/img/portrait.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-    /* border: 1px solid rgba(255, 255, 255, 0.2); */
-  }
-  .profile-three {
-  height: auto;
-  background-image: url(/img/bg-profile-side.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
+
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
@@ -85,19 +66,19 @@ background-color: #132335;
     position: relative;
     /* width: 100%; */
     height: auto;
-    background-image: url(/img/Profile.jpg);
+    /* background-image: url(/img/Profile.jpg);
     background-image: url(/img/portfolio_background_contact.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
   }
   .profile-one {
     height: auto;
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    /* border-right: 1px solid rgba(255, 255, 255, 0.2); */
   }
   .profile-two {
     height: auto;
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    /* border-right: 1px solid rgba(255, 255, 255, 0.2); */
   }
   .profile-img {
     position: absolute;
@@ -107,10 +88,10 @@ background-color: #132335;
 
     height: 80vh;
     /* width: 29vw !important; */
-    background-image: url(/img/portrait.png);
+    /* background-image: url(/img/portrait.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: contain;
+    background-size: contain; */
     /* border: 1px solid rgba(255, 255, 255, 0.2); */
   }
 }
@@ -128,10 +109,10 @@ background-color: #132335;
     /* width: 100%; */
     height: auto;
     /* background-image: url(/img/Profile.jpg); */
-    background-image: url(/img/portfolio_background_contact.jpg);
+    /* background-image: url(/img/portfolio_background_contact.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
   }
 
   .profile-img-mobile {
@@ -139,21 +120,21 @@ background-color: #132335;
 
     height: 59vh;
 
-    background-image: url(/img/portrait.png);
+    /* background-image: url(/img/portrait.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: contain; */
     /* border: 1px solid rgba(255, 255, 255, 0.2); */
   }
   .profile-two {
   height: auto;
-
+/* 
   background-image: url(/img/profile_Mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
 
-  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  /* border-right: 1px solid rgba(255, 255, 255, 0.2); */
 }
 }
 
