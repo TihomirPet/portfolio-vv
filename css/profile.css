@@ -1,8 +1,6 @@
 .profile {
-
-background-color: #132335;
+  background-color: #132335;
   height: 92vh;
-
 }
 
 .profile-one {
@@ -12,7 +10,6 @@ background-color: #132335;
   background-position: top;
   background-size: cover; */
   /* border-right: 1px solid rgba(255, 255, 255, 0.2); */
-
 }
 .profile-two {
   height: 90vh;
@@ -30,9 +27,7 @@ background-color: #132335;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover; */
-
 }
-
 
 /* X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
@@ -54,8 +49,6 @@ background-color: #132335;
     height: 105vh;
     /* border-right: 1px solid rgba(255, 255, 255, 0.2); */
   }
-
-
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
@@ -127,15 +120,15 @@ background-color: #132335;
     /* border: 1px solid rgba(255, 255, 255, 0.2); */
   }
   .profile-two {
-  height: 85vh;
-/* 
+    height: 85vh;
+    /* 
   background-image: url(/img/profile_Mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; */
 
-  /* border-right: 1px solid rgba(255, 255, 255, 0.2); */
-}
+    /* border-right: 1px solid rgba(255, 255, 255, 0.2); */
+  }
 }
 
 /* // XX-Large devices (larger desktops) */

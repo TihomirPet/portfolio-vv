@@ -221,7 +221,8 @@
     background-size: auto 100%;
     /* background-position: -74vw 0vh; */
     background-position: top 0px left 0px;
-    border-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
 
   .bord-down-two {
