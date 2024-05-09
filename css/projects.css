@@ -85,7 +85,7 @@
 @media (max-width: 1399.98px) {
   .projects {
     height: auto;
-    background-color: #eeefe8;
+    /* background-color: #eeefe8; */
   }
   .projects-contact-two {
     border-bottom: none;

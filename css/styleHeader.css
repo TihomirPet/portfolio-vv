@@ -6,7 +6,7 @@
 }
 .header {
   background-color: var(--main-bg-color);
-  height: 100dvh;
+  height:auto;
 }
 .header-holder {
   height: 86%;
@@ -19,12 +19,13 @@
 .bord-one-content {
   height: 100%;
   width: 100%;
-  background-image: url(/img/annieR.jpg);
+  /* background-image: url(/img/annieR.jpg);
   background-repeat: no-repeat;
   background-position: right;
-  background-size: cover;
+  background-size: cover; */
   border-radius: 15px;
-  background-color: var(--second-bg-color);
+  /* background-color: var(--second-bg-color); */
+ 
 }
 .Profile_text_profile {
   writing-mode: vertical-rl;
@@ -34,14 +35,14 @@
   letter-spacing: -0.2vw;
 }
 .Profile_text_span {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  color: #fff;
+  /* writing-mode: vertical-rl; */
+  /* text-orientation: upright; */
+  /* color: #fff;
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #d35f39,
-    0 0 82px #d35f39, 0 0 92px #d35f39, 0 0 102px #d35f39, 0 0 151px #d35f39;
+    0 0 82px #d35f39, 0 0 92px #d35f39, 0 0 102px #d35f39, 0 0 151px #d35f39; */
 
-  font-size: 3.8vh;
-  letter-spacing: -0.4vw;
+  font-size:4vh;
+  letter-spacing: 0.4vw;
 }
 .Profile_text_name {
   writing-mode: vertical-rl;
@@ -126,11 +127,11 @@
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
   .Profile_text_span {
-    writing-mode: vertical-rl;
+    /* writing-mode: vertical-rl;
     text-orientation: upright;
     color: #fff;
     text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa; */
     font-size: 2.9vh;
     letter-spacing: -0.4vw;
   }
@@ -144,13 +145,13 @@
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
   .Profile_text_span {
-    writing-mode: vertical-rl;
+    /* writing-mode: vertical-rl;
     text-orientation: upright;
     color: #fff;
     text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
-    font-size: 2.8vh;
-    letter-spacing: -0.4vw;
+      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa; */
+    font-size: 3.7vh;
+    letter-spacing: 0.4vw;
   }
   .header-holder {
     /* height: 100%; */
@@ -182,34 +183,44 @@
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   .Profile_text_span {
-    writing-mode: vertical-rl;
+    /* writing-mode: vertical-rl;
     text-orientation: upright;
     color: #fff;
     text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
-    font-size: 2.5vh;
-    letter-spacing: -0.4vw;
+      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa; */
+    font-size: 3.5vh;
+    letter-spacing: 0.4vw;
   }
 }
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .Profile_text_span {
-    writing-mode: vertical-rl;
+    /* writing-mode: vertical-rl;
     text-orientation: upright;
     color: #fff;
     text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa; */
     font-size: 2.5vh;
     letter-spacing: -0.4vw;
   }
   .bord-two-holder {
-    height: 100%;
-    background-image: url(/img/TPBL.jpg);
+    height: 70vh;
+    background-image: url(/img/TPBLP.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: -74vw 0vh; */
+    background-position: top 20px right -20px;
+    border-radius: 0px;
+  }
+  .bord-two-holder-hidden {
+    height: 80vh;
+    background-image: url(/img/TPBLP.jpg);
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: auto 100%;
     /* background-position: -74vw 0vh; */
-    background-position: top 0px right -70px;
+    background-position: top 0px left 0px;
     border-radius: 0px;
   }
 
