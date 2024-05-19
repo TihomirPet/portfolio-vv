@@ -9,7 +9,7 @@
   height:auto;
 }
 .header-holder {
-  height: 86%;
+  height: 100%;
   background-color: var(--main-bg-color);
 }
 
@@ -59,7 +59,7 @@
   background-color: var(--main-bg-color);
 }
 .bord-two-holder {
-  height: 100%;
+  height: 80vh;
   width: auto;
   background-image: url(/img/TPBLP.jpg);
   background-repeat: no-repeat;
