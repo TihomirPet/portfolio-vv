@@ -1,6 +1,8 @@
 .projects {
   height: auto;
   background-color: var(--main-bg-color);
+ /* background: rgb(248,241,227);
+background: linear-gradient(0deg, rgba(248,241,227,1) 0%, rgba(19,35,53,1) 50%, rgba(248,241,227,1) 100%); */
 }
 .projects-one {
   /* border-right: 1px solid rgb(10, 10, 13, 0.3); */
