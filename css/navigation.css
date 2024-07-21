@@ -34,20 +34,20 @@
 .nav-link{
   color: black !important;
   text-decoration: none;
-  font-family: 'JosrRegular';
+  font-family: 'Regular';
   font-size: 0.8vw;
 }
 .nav-link:active,.nav-link:visited{
   color: black !important;
   text-decoration: none;
-  font-family: 'JosrRegular';
+  font-family: 'Regular';
   font-size: 0.8vw ;
     border-bottom: none;
 }
 .nav-link:hover {
   color: black !important;
   text-decoration: none;
-  font-family: 'JosrRegular';
+  font-family: 'Regular';
   font-size: 0.8vw;
   /* border-bottom: 1px solid rgb(12, 12, 12); */
 }
@@ -82,7 +82,7 @@
   .nav-link {
   color: black !important;
   text-decoration: none;
-  font-family: 'JosrRegular';
+  font-family: 'Regular';
   font-size: 1vw ;
 }
 }
@@ -91,7 +91,7 @@
   .nav-link{
   color: black !important;
   text-decoration: none;
-  font-family: 'JosrRegular';
+  font-family: 'Regular';
   font-size: 1.3vw !important;
 }
     /* .nav-link:active,.nav-link:visited{
@@ -130,7 +130,7 @@
   .nav-link {
   color: black !important;
   text-decoration: none;
-  font-family: 'JosrRegular';
+  font-family: 'Regular';
   font-size: 2vw !important;
 }
     .phone-img{
@@ -144,13 +144,13 @@
   .nav-link:active,.nav-link:visited{
   color: black !important;
   text-decoration: none;
-  font-family: 'JosrRegular';
+  font-family: 'Regular';
   font-size: 2vw !important;
 }
 .nav-link:hover {
   color: black !important;
   text-decoration: none;
-  font-family: 'JosrRegular';
+  font-family: 'Regular';
   font-size: 2vw !important;
   border-bottom: none;
 }
@@ -160,19 +160,19 @@
     .nav-link {
   color: black !important;
   text-decoration: none;
-  font-family: 'JosrRegular';
+  font-family: 'Regular';
   font-size: 6vw;
 }
 .nav-link:active,.nav-link:visited{
   color: black !important;
   text-decoration: none;
-  font-family: 'JosrRegular';
+  font-family: 'Regular';
   font-size: 3.8vw !important;
 }
 .nav-link:hover {
   color: black !important;
   text-decoration: none;
-  font-family: 'JosrRegular';
+  font-family: 'Regular';
   font-size:3.8vw !important;
   border-bottom: none;
 }
@@ -190,20 +190,20 @@
 .nav-link{
   color: black !important;
   text-decoration: none;
-  font-family: 'JosrRegular';
+  font-family: 'Regular';
   font-size: 3.8vw !important;
 }
 
 .nav-link:active,.nav-link:visited{
   color: black !important;
   text-decoration: none;
-  font-family: 'JosrRegular';
+  font-family: 'Regular';
   font-size: 3.8vw ;
 }
 .nav-link:hover {
   color: black !important;
   text-decoration: none;
-  font-family: 'JosrRegular';
+  font-family: 'Regular';
   font-size:3.8vw;
   border-bottom: none;
 }

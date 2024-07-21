@@ -23,7 +23,7 @@
   text-align: center;
   background: 0 0;
   border: 0;
-  font-family: 'JosrRegular';
+  font-family: 'Regular';
   font-size: 0.9vw;
 text-transform: uppercase;
 letter-spacing: 0.29vw;
@@ -46,7 +46,7 @@ letter-spacing: 0.29vw;
   color: #000000 !important;
 
   text-align: center;
-  font-family: 'JosrRegular';
+  font-family: 'Regular';
 background-color: #fff;
   border: 0;
   opacity: 0.5;

@@ -2,22 +2,10 @@ body,
 html {
   width: 100%;
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'sans-serif', 'Regular' ;
 }
 /* ==================== Fonts ============================================*/
 
-@font-face {
-  font-family: 'KiwiMaru-Light';
-  src: url('/Fonts/KiwiMaru-Light.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'UnboundedRegular';
-  src: url('/Fonts/SyneMono-Regular.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'RammetoOne';
-  src: url('/Fonts/RammettoOne-Regular.ttf') format('truetype');
-}
 @font-face {
   font-family: 'JosrLight';
   src: url('/Fonts/Lexend-Light.ttf') format('truetype');
@@ -30,28 +18,64 @@ html {
   font-family: 'RockSalt';
   src: url('/Fonts/RockSalt-Regular.ttf') format('truetype');
 }
+/* ########################### Fonts ##################################################*/
 @font-face {
-  font-family: 'Homemsde';
-  src: url('/Fonts/HomemadeApple-Regular.ttf') format('truetype');
+  font-family: 'Thin';
+  src: url('/Fonts/Outfit-Thin.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Light';
+  src: url('/Fonts/Outfit-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Regular';
+  src: url('/Fonts/Outfit-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Medium';
+  src: url('/Fonts/Outfit-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Semibold';
+  src: url('/Fonts/Outfit-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Bold';
+  src: url('/Fonts/Outfit-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'ExtraBold';
+  src: url('/Fonts/Outfit-ExtraBold.ttf') format('truetype');
 }
 
-.Handwritten {
-  font-family: 'Homemsde';
+/* ######################### class Fonts ######################################################## */
+
+.Thin {
+  font-family: 'Thin';
 }
-.font-ComforterBrush-regular {
-  font-family: 'JosrRegular';
+.Light {
+  font-family: 'Light';
+}
+.Regular {
+  font-family: 'Regular';
+}
+.Medium {
+  font-family: 'Medium';
+}
+.Semibold {
+  font-family: 'Semibold';
+}
+.Bold {
+  font-family: 'Bold';
 }
 
-.rock-salt {
-  font-family: 'RockSalt';
+.ExtraBold {
+  font-family: 'ExtraBold';
 }
 
-.jost-light {
-  font-family: 'JosrLight';
-}
-.jost-regular {
-  font-family: 'JosrRegular';
-}
+/* ######################### class Fonts end ######################################################## */
+
+
 .letter-space-05 {
   letter-spacing: 0.5vw;
 }
@@ -60,32 +84,31 @@ html {
 }
 
 .font-titel {
-  font-family: 'JosrLight';
+  font-family: 'Light';
   color: #ffffff;
   /* color:      rgb(77, 76, 76); */
   font-size: 5.8vw;
   letter-spacing: 2.3vw;
 }
 .font-titel-name {
-  font-family: 'JosrLight';
+  font-family: 'Light';
   color: rgba(255, 255, 255, 0.9);
-  
+
   font-size: 1vw;
   /* letter-spacing: 0.1vw; */
 }
 .text-overlay {
-  font-family: 'JosrLight';
+  font-family: 'Light';
   color: rgba(255, 255, 255, 0.7);
   font-size: 0.8vw;
 }
 
-
 .font-subtitle {
-  font-family: 'JosrLight';
+  font-family: 'Light';
   font-size: 16px;
 }
 .font-text {
-  font-family: 'JosrLight';
+  font-family: 'Light';
   font-size: 0.8vw;
   font-weight: 100;
 }
@@ -104,7 +127,7 @@ html {
 /* ==================== Colours ============================================*/
 
 .orange {
-  color: #FF6936;
+  color: #ff6936;
 }
 .yellow {
   color: hsl(15, 100%, 61%);
@@ -119,27 +142,27 @@ html {
 /* X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
   .font-titel-name {
-  font-family: 'JosrLight';
-  color: rgb(238, 239, 232, 0.8);
-  font-size: 1.3vw;
-  /* letter-spacing: 1.6vw; */
-}
+    font-family: 'Light';
+    color: rgb(238, 239, 232, 0.8);
+    font-size: 1.3vw;
+    /* letter-spacing: 1.6vw; */
+  }
   .font-text {
-    font-family: 'JosrLight';
+    font-family: 'Light';
     font-size: 1.2vw;
   }
   .text-overlay {
-    font-family: 'JosrLight';
+    font-family: 'Light';
     color: rgba(232, 236, 239, 0.6);
     font-size: 1.2vw;
   }
   .font-20 {
-  font-size: 1.4vw;
-}
+    font-size: 1.4vw;
+  }
 
-.font-25 {
-  font-size: 1.5vw;
-}
+  .font-25 {
+    font-size: 1.5vw;
+  }
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
@@ -147,25 +170,25 @@ html {
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
   .font-titel {
-    font-family: 'JosrLight';
+    font-family: 'Light';
     color: rgb(255, 255, 254);
     font-size: 6.5vw;
     letter-spacing: 2vw;
   }
   .font-titel-name {
-    font-family: 'JosrLight';
+    font-family: 'Light';
     color: rgb(241, 241, 241);
     font-size: 1.4vw;
     /* letter-spacing: 1.3vw; */
   }
   .text-overlay {
-    font-family: 'JosrLight';
+    font-family: 'Light';
 
     color: rgba(232, 236, 239, 0.6);
     font-size: 1.5vw;
   }
   .font-text {
-    font-family: 'JosrLight';
+    font-family: 'Light';
 
     font-size: 1.4vw;
   }
@@ -186,20 +209,20 @@ html {
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .font-titel {
-    font-family: 'JosrLight';
+    font-family: 'Light';
     color: rgb(255, 255, 254);
     font-size: 13.5vw;
     letter-spacing: 1vw;
   }
 
   .font-titel-name {
-    font-family: 'JosrLight';
+    font-family: 'Light';
     color: rgb(241, 241, 241);
     font-size: 4.2vw;
     letter-spacing: 0vw;
   }
   .font-text {
-    font-family: 'JosrLight';
+    font-family: 'Light';
 
     font-size: 3.9vw;
   }
@@ -214,7 +237,7 @@ html {
     font-size: 7.4vw;
   }
   .text-overlay {
-    font-family: 'JosrLight';
+    font-family: 'Light';
 
     color: rgba(255, 255, 255);
     font-size: 3.9vw;
