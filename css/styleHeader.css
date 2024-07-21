@@ -5,17 +5,26 @@
   --third-bg-color: hsl(245, 9%, 27%);
 }
 .header {
-  background-color: var(--main-bg-color);
-  height:auto;
+  height: 100vh;
+width: 100vw;
+
+
+  /* transition: all 3s ease-out; */
+  /* border-radius: 15px; */
+
+
 }
 .header-holder {
   height: 100%;
-  background-color: var(--main-bg-color);
+   background-image: url(/img/TPColour.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  /* background-color: var(--main-bg-color); */
+
 }
 
-.bord-one {
-  height: auto;
-}
+
 .bord-one-content {
   height: 100%;
   width: 100%;
@@ -34,39 +43,23 @@
   font-size: 3vh;
   letter-spacing: -0.2vw;
 }
-.Profile_text_span {
-  /* writing-mode: vertical-rl; */
-  /* text-orientation: upright; */
-  /* color: #fff;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #d35f39,
-    0 0 82px #d35f39, 0 0 92px #d35f39, 0 0 102px #d35f39, 0 0 151px #d35f39; */
 
-  font-size:4vh;
-  letter-spacing: 0.4vw;
-}
 .Profile_text_name {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
+  /* writing-mode: vertical-rl;
+  text-orientation: upright; */
   color: var(--main-bg-color);
   font-size: 2.2vh;
   letter-spacing: -0.1vw;
   /* opacity: 0.6; */
 }
 
-.bord-two {
+/* .bord-two {
   height: auto;
   width: 100%;
   background-color: var(--main-bg-color);
-}
+} */
 .bord-two-holder {
-  height: 80vh;
-  width: auto;
-  background-image: url(/img/TPBLP.jpg);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
-  transition: all 3s ease-out;
-  border-radius: 15px;
+
 }
 
 .bord-three {
