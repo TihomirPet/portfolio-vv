@@ -4,6 +4,12 @@ html {
   margin: 0;
   font-family: 'sans-serif', 'Regular' ;
 }
+:root {
+  --main-bg-color: hsl(40, 60%, 93%);
+  --second-bg-color: hsl(238, 82%, 64%);
+  --second-bg-color: #060815;
+  --third-bg-color: hsl(245, 9%, 27%);
+}
 /* ==================== Fonts ============================================*/
 
 @font-face {
