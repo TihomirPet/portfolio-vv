@@ -35,7 +35,7 @@
 .project-id-mobile {
   position: relative;
   height: auto;
-  background-color: var(--main-bg-color);
+  /* background-color: var(--main-bg-color); */
   /* border-top: 1px solid rgb(10, 10, 13, 0.3); */
 }
 .project-id-mobile-one {
@@ -63,10 +63,11 @@
 
 
 .img-hover-zoom-mobile {
- height: 68vh; /* [1.1] Set it as per your need */
+ /* height: 68vh;  */
+ height: auto; /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-     border-radius: 0.7vw;
-     border:3px solid #000000
+     border-radius: 0.69vw;
+     border:1px solid #000000
 }
 
 /* [2] Transition property for smooth transformation of images */
@@ -85,11 +86,13 @@
   font-size: 0.9vw !important;
   border:1px solid rgb(10, 10, 13, 0.5) !important;
   border-radius: 10vw !important;
+  font-family: 'Light' !important;
+  /* background-color: #c8ff00 !important; */
 }
 .mobile-btn:hover{
   border:2px solid rgb(10, 10, 13, 0.5) !important;
   border-radius: 10vw !important;
-  font-family:'JosrRegular' ;
+  font-family:'Regular' !important;
 }
 /* X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {

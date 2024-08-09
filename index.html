@@ -117,30 +117,33 @@
     ></div>
 
     <!-- ================================================== Header Start==================================== -->
-    <div class="container-fluid p-0 pt-5 header" id="02">
-      <div class="row m-0 header-holder pt-5 pb-5">
+    <div
+      class="container-fluid p-0 pt-5 header d-flex align-items-center justify-content-center"
+      id="02"
+    >
+      <div class="row m-0 pt-5 pb-5">
         <div
           class="col-12 col-md-12bord-two d-flex align-items-center justify-content-center p-0"
         >
           <div
-            class="container-fluid bord-two-holder d-flex align-items-end align-items-md-center justify-content-end justify-content-md-center border border-danger"
+            class="container-fluid bord-two-holder d-flex align-items-end align-items-md-center justify-content-end justify-content-md-center"
             id="background"
           >
             <div class="row d-flex align-items-center justify-content-start">
-              <div class="col-2 border"></div>
-              <div class="col-3 border">
+              <div class="col-2"></div>
+              <div class="col-3">
                 <img src="/img/TPBw.jpg" width="100%" />
               </div>
-              <div class="col-2 border"></div>
-              <div class="col-3">
-                <div class="row border border-danger">
-                  <div class="col-xl-12 pb-5 border border-primary">
-                    <h2 class="Profile_text_name text-uppercase">
+              <div class="col-2"></div>
+              <div class="col-3 pt-5">
+                <div class="row pb-5">
+                  <div class="col-xl-12 pb-5">
+                    <h2 class="Profile_text_name ">
                       Hallo, <br />
                       Ich bin Tihomir.
                     </h2>
                   </div>
-                  <div class="col-12">
+                  <div class="col-12 pb-5">
                     <h2 class="font-text">
                       Meine Freunde nennen mich Tiho. <br />Meine Leidenschaft
                       liegt in der Erstellung von beeindruckenden und
@@ -164,9 +167,9 @@
                       einen ausgeprägten Teamgeist aus.
                     </h2>
                   </div>
-                  <div class="col-12 border border-primary mt-5 header-video-holder">
+                  <div class="col-12 mt-5 header-video-holder">
                     <div class="row d-flex flex-column">
-                      <div class="col-12 border p-0 header-video">
+                      <div class="col-12 p-0 header-video">
                         <video width="100%" height="auto" autoplay loop>
                           <source src="/video/152.mp4" type="video/mp4" />
                         </video>
@@ -183,7 +186,7 @@
     </div>
     <!-- =========== Section Projects start =========================================================== -->
 
-    <div class="container-fluid projects Light" id="04">
+    <div class="container-fluid projects Light pb-5" id="04">
       <div class="row pt-5">
         <div class="col-12 col-md-1 projects-one d-flex align-items-start">
           <h2 class="projects-title d-none d-md-block text-uppercase">
@@ -309,14 +312,14 @@
         <div
           class="col-12 col-md-2 steps-one d-flex align-items-center justify-content-center"
         >
-          <h2 class="steps-title Handwritten p-5 d-none d-md-block">
+          <h2 class="steps-title text-uppercase d-none d-md-block">
             Strategie
           </h2>
         </div>
         <div
           class="col-12 col-md-8 steps-two d-flex flex-column justify-content-lg-center justify-content-xl-start jost-light pt-lg-2 pt-xl-5"
         >
-          <div class="row pt-md-3 mt-lg-5 pt-lg-0 pt-xl-5">
+          <div class="row pt-md-3 mt-lg-5 pt-xl-5">
             <div class="col-12 ps-lg-2 ps-xl-4">
               <h2 class="mt-4 ps-2 ps-md-3 ps-lg-2 ps-xl-5 font-48-83">
                 Bestandteile eines Projekts
@@ -444,7 +447,7 @@
       let i = 0;
       let doc = document.getElementById('background');
       let color = [
-        ' background-image: url(/img/TP.jpg);',
+  
         'hsla(182, 75%, 52%, 0.78)',
         'hsla(40, 88%, 55%, 0.78)',
         // 'rgb(234, 90, 41,0.6)',
@@ -456,6 +459,43 @@
       }
       setInterval(change, 10000);
     </script> -->
+    <script>
+      function el(css) {
+        return document.querySelector(css);
+      }
+      // let scrollpos = window.scrollY;
+      let header = el('.nav-holder');
+      // let header_height = header.offsteHeight;
+
+      // let add_class_on_scroll = () => header.classList.add('fade-in');
+      // let remove_class_on_scroll = () => header.classList.remove('fade-in');
+
+      window.addEventListener('scroll', ()=> {
+      
+
+        if (window.scrollY > 100) {
+         header.classList.add('nav-bg')
+        } else {
+          header.classList.remove('nav-bg')
+        }
+           console.log(header);
+      });
+  // let scrollpos = window.scrollY
+  // const header = document.querySelector("nav")
+  // const header_height = header.offsetHeight
+
+  // const add_class_on_scroll = () => header.classList.add("fade-in")
+  // const remove_class_on_scroll = () => header.classList.remove("fade-in")
+
+  // window.addEventListener('scroll', function() { 
+  //   scrollpos = window.scrollY;
+
+  //   if (scrollpos >= header_height) { add_class_on_scroll() }
+  //   else { remove_class_on_scroll() }
+
+  //   console.log(scrollpos)
+   
+    </script>
     <!-- ************************************************************************************** -->
   </body>
 </html>

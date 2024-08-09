@@ -4,7 +4,7 @@
   height: 7vh;
   z-index: 40;
   /* background-color: #441818; */
-    background-color: var(--main-bg-color);
+    /* background-color: var(--main-bg-color); */
 }
 .nav-slider-holder {
   /* border-top: 1px solid rgba(0, 0, 0, 0.3); */
@@ -21,7 +21,7 @@
   padding: 0;
   color: #000000 !important;
   text-align: center;
-  background: 0 0;
+  background: #c8ff00 !important;
   border: 0;
   font-family: 'Regular';
   font-size: 0.9vw;
@@ -30,6 +30,7 @@ letter-spacing: 0.29vw;
   opacity: 0.9;
   transition: opacity 0.15s ease;
     border: 1px solid rgba(0, 0, 0, 0.3) !important;
+    /* border-radius: 20px !important; */
 }
 
 .carousel-control-next:hover,
