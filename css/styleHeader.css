@@ -5,13 +5,13 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; */
-  /* background-color: #EEF4ED; */
+  background-color: #ffffff;
 
-  z-index: 5;
+  z-index: 6;
 }
 .header-holder {
   height: 100%;
-    background-color: hsla(40, 92%, 75%, 0.9);
+  background-color: hsla(40, 92%, 75%, 0.9);
 }
 
 .bord-one-content {
@@ -58,23 +58,27 @@
 .header-video {
   position: relative;
   filter: grayscale(100%) contrast(120%);
+  border-radius: 15px;
 }
 .header-video-overlay {
   position: absolute;
   top: 0;
-
   background-color: hsla(0, 0%, 99%, 0.9);
   /* background-color: hsla(0, 0%, 0%, 0.9); */
   background-color: hsla(40, 92%, 75%, 0.9);
-    /* background-color: hsl(42, 100%, 44%, 0.9); */
-
+  /* background-color: hsl(42, 100%, 44%, 0.9); */
   mix-blend-mode: hard-light;
   height: 98.3%;
   width: 100%;
   z-index: 2;
+ border-radius: 15px;
+}
+.header-video{
+  border-radius:15px;
 }
 .header-video-holder {
   position: relative;
+ border-radius: 15px;
 }
 
 .bord-down-one {
@@ -151,7 +155,7 @@
     height: 83%;
     background-color: var(--main-bg-color);
   }
-  .bord-two {
+  /* .bord-two {
     height: 100%;
     width: auto;
     background-image: url(/img/TPBLP.jpg);
@@ -159,7 +163,7 @@
     background-position: -2% 0%;
     background-size: contain;
     transition: all 3s ease-out;
-  }
+  } */
   .bord-down-two {
     height: 10vh;
     background-color: var(--main-bg-color);
@@ -187,37 +191,43 @@
 }
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .Profile_text_span {
-    /* writing-mode: vertical-rl;
-    text-orientation: upright;
-    color: #fff;
-    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa; */
+  /* .Profile_text_span {
+
     font-size: 2.5vh;
     letter-spacing: -0.4vw;
   }
   .bord-two-holder {
     height: 70vh;
     background-image: url(/img/TPBLP.jpg);
-    /* background-position: center; */
+ 
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: -74vw 0vh; */
+
     background-position: top 20px right -20px;
     border-radius: 0px;
   }
   .bord-two-holder-hidden {
     height: 80vh;
     background-image: url(/img/TPBLP.jpg);
-    /* background-position: center; */
+
     background-repeat: no-repeat;
     background-size: auto 100%;
-    /* background-position: -74vw 0vh; */
+
     background-position: top 0px left 0px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-  }
+  } */
+.header {
+  position: relative;
+  height:auto;
+  /* background-image: url(/img/Background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  /* background-color: #EEF4ED; */
 
+  z-index: 5;
+}
   .bord-down-two {
     height: 8vh;
   }
