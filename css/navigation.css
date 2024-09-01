@@ -14,14 +14,18 @@
 .navbar {
   /* background-color: #eeefe8; */
 }
-.navbar-nav{
- background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,0.3) 0%, rgb(255, 255, 255) 50%, rgba(255,255,255,0.3) 100%);
+.navbar-nav {
+  background: rgb(208, 208, 208);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgb(242, 242, 242) 50%,
+    rgba(242, 242, 242, 0.3) 100%
+  );
   border-radius: 10vw;
-
-
--webkit-box-shadow: inset 5px 4px 7px -6px #271b00; 
-box-shadow: inset 5px 6px 4px -6px #271b00;
+  border: 1px solid hsl(0, 0%, 100%, 0.5);
+  -webkit-box-shadow: inset 5px 4px 7px -6px #271b00;
+  box-shadow: inset 5px 6px 4px -6px #271b00;
 }
 
 .nav-holder {
@@ -41,15 +45,13 @@ box-shadow: inset 5px 6px 4px -6px #271b00;
 }
 .nav-link {
   /* text-transform: uppercase; */
-  color: hsl(0, 0%, 41%)!important;
+  color: hsl(0, 0%, 41%) !important;
   text-decoration: none;
   font-family: 'Semibold';
   font-size: 0.8vw;
-
 }
 .nav-link:active,
 .nav-link:visited {
-  
   /* color:rgba(250, 211, 133,1) !important; */
   text-decoration: none;
   font-family: 'Regular';

@@ -1,10 +1,10 @@
 .header {
   position: relative;
   height: 130vh;
-  /* background-image: url(/img/Background.jpg);
+  background-image: url(/img/Background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; */
+  background-size: cover;
   background-color: #ffffff;
 
   z-index: 6;
@@ -27,24 +27,12 @@
 }
 
 .Profile_text_name {
-  /* color: var(--main-bg-color); */
-  font-size: 51.27px;
-  /* letter-spacing: -0.1vw; */
-  /* opacity: 0.6; */
-  font-family: 'Regular';
+ font-size: 51.27px;
+ font-family: 'Regular';
 }
 
-/* .bord-two {
-  height: auto;
-  width: 100%;
-  background-color: var(--main-bg-color);
-} */
-.bord-two-holder {
-}
 
-.bord-three {
-  /* height: auto; */
-}
+
 .bord-three-content {
   height: 100%;
   width: 100%;
@@ -72,13 +60,18 @@
   width: 100%;
   z-index: 2;
  border-radius: 15px;
+     -webkit-box-shadow: inset 5px 4px 7px -6px #b68002;
+  box-shadow: inset 5px 6px 4px -6px #b68002;
+  border: 1px solid #ffffff;
 }
 .header-video{
   border-radius:15px;
+
 }
 .header-video-holder {
   position: relative;
  border-radius: 15px;
+
 }
 
 .bord-down-one {
