@@ -1,15 +1,12 @@
 .profile {
   position: relative;
-
   height: 100vh;
   z-index: 3;
 }
 .profile-overlay {
   position: absolute;
   top: 0;
-
   background-color: rgba(250, 211, 133, 0.9);
-
   mix-blend-mode: hard-light;
   height: 100vh;
   width: 100%;
@@ -198,10 +195,10 @@
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #0d6efd;
     --bs-btn-disabled-border-color: #0d6efd;
-    border-top-right-radius: 1.5vw !important;
-    border-top-left-radius: 1.5vw !important;
-    border-bottom-left-radius: 1.5vw !important;
-    border-bottom-right-radius: 1.5vw !important;
+    border-top-right-radius: 2.5vw !important;
+    border-top-left-radius: 2.5vw !important;
+    border-bottom-left-radius: 2.5vw !important;
+    border-bottom-right-radius: 2.5vw !important;
   }
   .profile-video-content {
     width: 426vw;

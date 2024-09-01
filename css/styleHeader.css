@@ -27,11 +27,9 @@
 }
 
 .Profile_text_name {
- font-size: 51.27px;
- font-family: 'Regular';
+  font-size: 51.27px;
+  font-family: 'Regular';
 }
-
-
 
 .bord-three-content {
   height: 100%;
@@ -51,27 +49,20 @@
 .header-video-overlay {
   position: absolute;
   top: 0;
-  background-color: hsla(0, 0%, 99%, 0.9);
-  /* background-color: hsla(0, 0%, 0%, 0.9); */
   background-color: hsla(40, 92%, 75%, 0.9);
-  /* background-color: hsl(42, 100%, 44%, 0.9); */
   mix-blend-mode: hard-light;
   height: 98.3%;
-  width: 100%;
+  width: 94.4% !important;
   z-index: 2;
- border-radius: 15px;
-     -webkit-box-shadow: inset 5px 4px 7px -6px #b68002;
-  box-shadow: inset 5px 6px 4px -6px #b68002;
-  border: 1px solid #ffffff;
-}
-.header-video{
-  border-radius:15px;
+  border-radius: 15px;
 
+      -webkit-box-shadow: inset 5px 4px 7px -6px #8f6502;
+    box-shadow: inset 5px 6px 4px -6px #8f6502;
 }
+
 .header-video-holder {
   position: relative;
- border-radius: 15px;
-
+  border-radius: 15px;
 }
 
 .bord-down-one {
@@ -210,17 +201,17 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
   } */
-.header {
-  position: relative;
-  height:auto;
-  /* background-image: url(/img/Background.jpg);
+  .header {
+    position: relative;
+    height: auto;
+    /* background-image: url(/img/Background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; */
-  /* background-color: #EEF4ED; */
+    /* background-color: #EEF4ED; */
 
-  z-index: 5;
-}
+    z-index: 5;
+  }
   .bord-down-two {
     height: 8vh;
   }
