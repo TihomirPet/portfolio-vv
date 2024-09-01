@@ -12,12 +12,13 @@
   width: 100%;
   z-index: 2;
 }
-.header-skils{
+.header-skils {
   width: 50%;
 }
 
 .header-text {
   color: #ffffff;
+  font-size: 0.8vw;
 }
 .header-video {
   position: absolute;
@@ -39,6 +40,7 @@
 .header-video-content {
   width: 86%;
   height: auto;
+  
 }
 
 .header-btn {
@@ -79,11 +81,10 @@
   display: none;
 }
 
-.header-one {
-  height: 90vh;
-}
+
 .header-two {
-  height: 90vh;
+   height: 100vh;
+   width: auto;
 }
 
 .header-three {
@@ -101,6 +102,9 @@
   transform: scale(1, -1);
   color: rgb(255, 255, 255);
 }
+.header-font-skils {
+  font-size: 0.9wv;
+}
 /* X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
   .header {
@@ -111,8 +115,10 @@
     /* border-right: 1px solid rgba(255, 255, 255, 0.2); */
   }
   .header-two {
-    height: 105vh;
-    /* border-right: 1px solid rgba(255, 255, 255, 0.2); */
+   
+  height: 100vh;
+   width: auto;
+ 
   }
 }
 /* Large devices (desktops, less than 1200px) */
@@ -125,12 +131,82 @@
 
     height: auto;
   }
-  .header-one {
+  .header-overlay {
+    position: absolute;
+    top: 0;
+    background-color: rgba(250, 211, 133, 0.9);
+    mix-blend-mode: hard-light;
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .header-video {
+     overflow: hidden;
+      position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+    filter: grayscale(90%) contrast(130%) saturate(50%);
+  }
+  .header-video-content {
+    width: 250vw;
     height: auto;
   }
+  .header-TitleTop {
+    font-family: Bold;
+    font-size: 6.4vw;
+    margin-bottom: -9.5vh !important;
+    color: rgb(255, 255, 255);
+  }
+  .header-TitleBottom {
+    font-family: Bold;
+    font-size: 6.4vw;
+    transform: scale(1, -1);
+    color: rgb(255, 255, 255);
+  }
+  .header-font-skils {
+    font-size: 1.5vw;
+  }
+  .header-skils {
+    width: 80%;
+  }
+  .header-text {
+    color: #ffffff;
+    font-size: 1.6vw;
+  }
+  .header-btn {
+    width: 15vw !important;
+    /* color: #ffffff !important; */
+    --bs-btn-color: rgb(168, 112, 0) !important;
+    --bs-btn-bg: #ffffff !important;
+    --bs-btn-border-color: #ffffff !important;
+    --bs-btn-hover-color: rgb(168, 112, 0) !important;
+    --bs-btn-hover-bg: #c8ff00 !important;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+    border-top-right-radius: 2.5vw !important;
+    border-top-left-radius: 2.5vw !important;
+    border-bottom-left-radius: 2.5vw !important;
+    border-bottom-right-radius: 2.5vw !important;
+  }
+  .header-btn-font {
+    font-size: 1.8vw;
+  }
   .header-two {
-    height: auto;
-    /* border-right: 1px solid rgba(255, 255, 255, 0.2); */
+   
+    height: 100vh;
+   width: 100vw;
+ 
   }
 }
 /* Small devices (landscape phones, less than 768px) */
@@ -144,16 +220,11 @@
     height: 100vh;
     z-index: 3;
   }
-  .header-skils{
-  width: 80%;
-}
 
-  /* .profile-TitleTop {
-    font-family: Bold;
-    font-size: 63px;
-    margin-bottom: -5.6vh !important;
-    color: rgb(255, 255, 255);
-  } */
+  .header-skils {
+    width: 80%;
+  }
+
   .header-TitleTop {
     font-family: Bold;
     font-size: 15vw;
@@ -169,20 +240,15 @@
   .header-video {
     position: absolute;
     top: 5.9vh;
-    right: 0;
+    left: 0;
     height: 100vh;
-    /* background: rgb(54, 19, 56);
-  background: linear-gradient(
-    180deg,
-    rgba(54, 19, 56, 1) 0%,
-    rgba(56, 18, 58, 1) 22%,
-    rgba(69, 23, 77, 1) 50%,
-    rgba(70, 25, 80, 1) 80%,
-    rgba(73, 25, 86, 1) 100%
-  ); */
-
     z-index: 0;
     filter: grayscale(90%) contrast(130%) saturate(50%);
+  }
+  .header-video-content {
+    width: 426vw;
+    height: auto;
+    transform: rotate(90deg);
   }
   .header-btn {
     width: 50vw !important;
@@ -205,11 +271,6 @@
     border-top-left-radius: 2.5vw !important;
     border-bottom-left-radius: 2.5vw !important;
     border-bottom-right-radius: 2.5vw !important;
-  }
-  .header-video-content {
-    width: 426vw;
-    height: auto;
-    transform: rotate(90deg);
   }
 
   .header_text_name {

@@ -125,13 +125,19 @@
 }
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+  .profile {
+  position: relative;
+  height: auto;
+  background-image: url(/img/Background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #ffffff;
+
+  z-index: 6;
+}
   .profile_text_span {
-    /* writing-mode: vertical-rl;
-    text-orientation: upright;
-    color: #fff;
-    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa; */
-    font-size: 3.7vh;
+ font-size: 3.7vh;
     letter-spacing: 0.4vw;
   }
   .profile-holder {
@@ -139,27 +145,22 @@
     height: 83%;
     background-color: var(--main-bg-color);
   }
-  /* .bord-two {
-    height: 100%;
-    width: auto;
-    background-image: url(/img/TPBLP.jpg);
-    background-repeat: no-repeat;
-    background-position: -2% 0%;
-    background-size: contain;
-    transition: all 3s ease-out;
-  } */
+
   .bord-down-two {
     height: 10vh;
     background-color: var(--main-bg-color);
-    /* border-right: 1px solid rgb(10, 10, 13, 0.5);
-  border-top: 1px solid rgb(10, 10, 13, 0.3); */
+  
   }
   .bord-down-three {
     height: 10vh;
-    /* background-color: #eeefe8; */
+
     background-color: var(--main-bg-color);
-    /* border-top: 1px solid rgb(10, 10, 13, 0.3); */
+
   }
+  .profile_text_name {
+  font-size: 22.27px;
+  font-family: 'Regular';
+}
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
