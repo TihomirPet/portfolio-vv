@@ -12,6 +12,9 @@
   width: 100%;
   z-index: 2;
 }
+.profile-skils{
+  width: 50%;
+}
 
 .profile-text {
   color: #ffffff;
@@ -141,6 +144,9 @@
     height: 100vh;
     z-index: 3;
   }
+  .profile-skils{
+  width: 80%;
+}
 
   /* .profile-TitleTop {
     font-family: Bold;
@@ -150,19 +156,19 @@
   } */
   .profile-TitleTop {
     font-family: Bold;
-    font-size: 15.2vw;
-    margin-bottom: -5.6vh !important;
+    font-size: 15vw;
+    margin-bottom: -5.8vh !important;
     color: rgb(255, 255, 255);
   }
   .profile-TitleBottom {
     font-family: Bold;
-    font-size: 15.2vw;
+    font-size: 15vw;
     transform: scale(1, -1);
     color: rgb(255, 255, 255);
   }
   .profile-video {
     position: absolute;
-    top: 3vh;
+    top: 5.9vh;
     right: 0;
     height: 100vh;
     /* background: rgb(54, 19, 56);
