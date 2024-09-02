@@ -70,7 +70,7 @@
   transform: rotate(180deg);
   writing-mode: vertical-rl;
   color: #ffffff;
-  font-size: 100.708px;
+  font-size: 5vw;
   font-family: Bold;
 }
 
@@ -99,16 +99,16 @@
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
   .img-hover-zoom {
-    height: 29vh;
+    height: auto;
     overflow: hidden;
     /* border-top-left-radius: 10px;
     border-top-right-radius: 10px; */
   }
   .projects-two {
-    height: auto;
+    height: 100%;
   }
   .projects {
-    height: auto;
+    height: 100%;
     /* background-color: var(--main-bg-color); */
   }
   .projects-contact-one {
@@ -119,6 +119,15 @@
     border-bottom: none;
     height: 9vh;
   }
+  .projects-title {
+  transform-origin: 0 27.9vh;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+  color: #ffffff;
+  font-size: 6.4vw;
+  font-family: Bold;
+}
+
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
