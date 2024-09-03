@@ -1,6 +1,6 @@
 .profile {
   position: relative;
-  height: 130vh;
+  height: auto;
   background-image: url(/img/Background.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -86,6 +86,21 @@
 
 /* X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
+    .profile {
+    position: relative;
+    height: auto;
+    background-image: url(/img/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #ffffff;
+
+    z-index: 6;
+  }
+  .profile_text_name {
+    font-size: 2vw;
+    font-family: 'Regular';
+  }
   .bord-two {
     height: 100%;
     width: auto;
@@ -107,12 +122,22 @@
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
+  .profile {
+    position: relative;
+    height: auto;
+    background-image: url(/img/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #ffffff;
+
+    z-index: 6;
+  }
+  .profile_text_name {
+    font-size: 3vw;
+    font-family: 'Regular';
+  }
   .profile_text_span {
-    /* writing-mode: vertical-rl;
-    text-orientation: upright;
-    color: #fff;
-    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa; */
     font-size: 2.9vh;
     letter-spacing: -0.4vw;
   }

@@ -95,7 +95,7 @@
     color: black !important;
     text-decoration: none;
     font-family: 'Regular';
-    font-size: 1vw;
+    font-size: 1vw !important;
   }
 }
 /* Large devices (desktops, less than 1200px) */
