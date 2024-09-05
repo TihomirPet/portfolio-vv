@@ -17,7 +17,7 @@
   transform: rotate(180deg);
   writing-mode: vertical-rl;
   color: #f1f1f1;
-  font-size: 100.708px;
+  font-size: 5vw;
   font-family: Bold;
 }
 .steps-two {
@@ -44,6 +44,7 @@
 }
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
+
 }
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
@@ -56,9 +57,18 @@
   .steps-two {
     height: auto;
   }
+    .steps-title {
+  transform-origin: 0 24.9vh;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+  color: #f1f1f1;
+  font-size:6.4vw;
+  font-family: Bold;
+}
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+
 }
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
