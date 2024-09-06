@@ -18,9 +18,9 @@
   background: rgb(208, 208, 208);
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 0.3) 0%,
-    rgb(242, 242, 242) 50%,
-    rgba(242, 242, 242, 0.3) 100%
+    rgb(251, 255, 0,0.07) 0%,
+   rgba(255, 255, 255) 50%,
+    rgb(251, 255, 0,0.07) 100%
   );
   border-radius: 10vw;
   border: 1px solid hsl(0, 0%, 100%, 0.5);
@@ -45,7 +45,7 @@
 }
 .nav-link {
   /* text-transform: uppercase; */
-  color: hsl(0, 0%, 41%) !important;
+  color: hsl(0, 0%, 0%) !important;
   text-decoration: none;
   font-family: 'Semibold';
   font-size: 0.8vw;
@@ -168,9 +168,9 @@
   background: rgb(208, 208, 208);
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255) 0%,
     rgb(242, 242, 242) 50%,
-    rgba(242, 242, 242, 0.3) 100%
+    rgba(242, 242, 242) 100%
   );
   border-radius: 3vw;
   border: 1px solid hsl(0, 0%, 100%, 0.5);
@@ -214,7 +214,7 @@
     background: rgb(208, 208, 208);
     background: linear-gradient(
       90deg,
-      rgba(255, 255, 255, 0.8) 0%,
+      rgba(255, 255, 255) 0%,
       rgb(242, 242, 242) 50%,
       rgba(242, 242, 242, 0.9) 100%
     );

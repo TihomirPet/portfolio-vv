@@ -11,6 +11,7 @@
 }
 .carousel-control-prev,
 .carousel-control-next {
+
   position: relative !important;
   z-index: 6;
   display: flex;
@@ -35,6 +36,8 @@ letter-spacing: 0.29vw;
 
 .carousel-control-next:hover,
 .carousel-control-prev:hover {
+     -webkit-box-shadow: inset 5px 4px 7px -6px #271b00;
+  box-shadow: inset 5px 6px 4px -6px #271b00;
   position: relative !important;
 
   z-index: 1;

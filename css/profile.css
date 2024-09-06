@@ -1,6 +1,6 @@
 .profile {
   position: relative;
-  height: auto;
+  height: 130vh;
   background-image: url(/img/Background.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -13,7 +13,10 @@
   height: 100%;
   background-color: hsla(40, 92%, 75%, 0.9);
 }
-
+/* .profile-text-holder{
+   background: rgb(236,237,219);
+background: linear-gradient(180deg, rgb(16, 16, 16) 0%, rgb(165, 165, 165) 50%, rgba(0,0,0,1) 100%);   
+} */
 .bord-one-content {
   height: 100%;
   width: 100%;
@@ -32,7 +35,6 @@
 }
 .profile-img-holder {
   position: relative;
-
 }
 .profile-img-overlay {
   top: 0;
@@ -41,7 +43,6 @@
   opacity: 0.3;
   border-radius: 15px;
 
-  
   z-index: 1;
 }
 .profile-img {
@@ -71,13 +72,16 @@
   position: absolute;
   top: 0;
   background-color: hsla(40, 92%, 75%, 0.9);
-  background-color: hsl(199, 99%, 58%, 0.9);
-  mix-blend-mode: hard-light;
+  /* background-color: hsl(199, 99%, 58%, 0.9); */
+  background-color:#f2cd34;
+   background: rgb(251, 255, 0);
+background: linear-gradient(180deg, rgb(251, 255, 0,0.99) 5%, rgb(251, 255, 0,0.6) 50%, rgba(0,0,0,0.2) 100%);   
+  mix-blend-mode: normal;
   height: 98.3%;
   width: 95.5% !important;
   z-index: 2;
   border-radius: 15px;
-
+  opacity: 0.8;
   -webkit-box-shadow: inset 5px 4px 7px -6px #8f6502;
   box-shadow: inset 5px 6px 4px -6px #8f6502;
 }

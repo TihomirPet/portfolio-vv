@@ -8,20 +8,32 @@
   overflow: hidden;
   position: absolute;
   top: 0;
-  background-color: rgba(250, 211, 133, 0.9);
+  background-color: rgba(250, 211, 133);
 
-  background-color: hsl(190, 96%, 56%, 0.9);
-  background-color: hsl(42, 91%, 91%, 0.9);
-  background-color: hsl(203, 100%, 11%);
-  background-color: hsl(214, 90%, 19%);
-  background-color: #461700;
-  background-color: hsl(44, 93%, 76%, 0.9);
-  background-color: hsl(89, 65%, 45%, 0.8);
-  background-color: #28bcfe;
-  mix-blend-mode: hard-light;
+  
+  background-color: #f2cd34;                               
+  background-color: #eceddb;                               
+  background-color: #100018;                               
+  background-color: #a0bbd9;                               
+  background-color: #ffffd3;                               
+                                
+
+background: rgb(242,205,52);
+background: linear-gradient(180deg, rgba(255,255,211,1) 49%, rgba(236,237,219,1) 87%, rgb(255, 255, 255) 100%);  
+background: rgb(255,255,211);
+background: linear-gradient(180deg, rgba(255,255,211,1) 0%,  rgba(0,0,0,1) 100%);      
+ background: rgb(170,225,0);
+background: linear-gradient(180deg, rgba(170,225,0,1) 0%, rgba(0,0,0,1) 100%);   
+ background: rgb(236,237,219);
+background: linear-gradient(180deg, rgb(16, 16, 16) 0%, rgba(170,225,0,1) 50%, rgba(0,0,0,1) 100%);                  
+ background: rgb(236,237,219);
+background: linear-gradient(180deg, rgb(16, 16, 16) 0%, rgb(251, 255, 0) 50%, rgba(0,0,0,1) 100%);                  
+  
+  mix-blend-mode:normal;
   height: 100vh;
   width: 100%;
   z-index: 2;
+  opacity: 0.79;
 }
 .header-skils {
   width: 50%;
@@ -46,7 +58,7 @@
     rgb(0, 0, 0) 100%
   );
   z-index: 0;
-  filter: grayscale(90%) contrast(130%) saturate(50%);
+  filter: grayscale(60%) contrast(160%) saturate(20%);
 }
 .header-video-content {
   width: 100vw;
@@ -104,14 +116,20 @@
   font-size: 96px;
   margin-bottom: -6.7vh !important;
   color: rgb(255, 255, 255);
+
+ 
   /* color:#2bebcb; */
+  /* color:#1100ff; */
 }
 .header-TitleBottom {
   font-family: Bold;
   font-size: 96px;
   transform: scale(1, -1);
   color: rgb(255, 255, 255);
+   
   /* color: #2bebcb; */
+   /* color:#1100ff; */
+  
 }
 .header-font-skils {
   font-size: 0.9wv;
