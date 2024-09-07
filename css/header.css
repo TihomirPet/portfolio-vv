@@ -11,7 +11,7 @@
   background-color: rgba(250, 211, 133);
 
 /* ########################################################################################################################### */
-background: rgb(255,255,211);
+/* background: rgb(255,255,211); */
 background: linear-gradient(180deg,rgb(242, 205, 52,1) 5%, rgba(255, 234, 0, 0.6) 50%,  rgba(0,0,0,1) 100%);   
 /* ########################################################################################################################### */   
  
@@ -258,8 +258,8 @@ border-left:1px solid rgb(255, 255, 255,0.2) ; */
   .header-overlay {
     position: absolute;
     top: 0;
-    background-color: rgba(250, 211, 133, 0.9);
-    mix-blend-mode: hard-light;
+    /* background-color: rgba(250, 211, 133, 0.9);
+    mix-blend-mode: hard-light; */
     height: 100vh;
     width: 100%;
     z-index: 2;
@@ -338,8 +338,8 @@ border-left:1px solid rgb(255, 255, 255,0.2) ; */
   .header-overlay {
     position: absolute;
     top: 0;
-    background-color: rgba(250, 211, 133, 0.9);
-    mix-blend-mode: hard-light;
+    /* background-color: rgba(250, 211, 133, 0.9);
+    mix-blend-mode: hard-light; */
     height: 100vh;
     width: 100%;
     z-index: 2;
@@ -419,9 +419,26 @@ border-left:1px solid rgb(255, 255, 255,0.2) ; */
   .header {
     position: relative;
 
-    height: 100vh;
+    height: auto;
     z-index: 3;
   }
+  .header-overlay {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  background-color: rgba(250, 211, 133);
+
+/* ########################################################################################################################### */
+/* background: rgb(255,255,211); */
+background: linear-gradient(180deg,rgb(242, 205, 52,1) 5%, rgba(255, 234, 0, 0.6) 40%,  rgba(0,0,0,1) 80%);   
+
+  
+  mix-blend-mode:normal;
+  height: 108vh;
+  width: 100%;
+  z-index: 2;
+  opacity: 0.79;
+}
 
   .header-skils {
     width: 80%;
