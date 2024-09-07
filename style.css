@@ -3,9 +3,11 @@ html {
   width: 100%;
   margin: 0;
   font-family: 'sans-serif', 'Regular' ;
+  scroll-behaviour:smooth;
 }
+
 :root {
-  --main-bg-color: hsl(40, 60%, 93%);
+  --main-bg-color: hsl(0, 0%, 0%);
   --second-bg-color: hsl(238, 82%, 64%);
   --second-bg-color: #060815;
   --third-bg-color: hsl(245, 9%, 27%);

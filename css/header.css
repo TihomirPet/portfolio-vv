@@ -1,7 +1,7 @@
 .header {
   overflow: hidden;
   position: relative;
-  height: 100vh;
+  height: 105vh;
   z-index: 3;
 }
 .header-overlay {
@@ -10,27 +10,19 @@
   top: 0;
   background-color: rgba(250, 211, 133);
 
-  
-  background-color: #f2cd34;                               
-  background-color: #eceddb;                               
-  background-color: #100018;                               
-  background-color: #a0bbd9;                               
-  background-color: #ffffd3;                               
-                                
-
-background: rgb(242,205,52);
-background: linear-gradient(180deg, rgba(255,255,211,1) 49%, rgba(236,237,219,1) 87%, rgb(255, 255, 255) 100%);  
+/* ########################################################################################################################### */
 background: rgb(255,255,211);
-background: linear-gradient(180deg, rgba(255,255,211,1) 0%,  rgba(0,0,0,1) 100%);      
- background: rgb(170,225,0);
-background: linear-gradient(180deg, rgba(170,225,0,1) 0%, rgba(0,0,0,1) 100%);   
- background: rgb(236,237,219);
-background: linear-gradient(180deg, rgb(16, 16, 16) 0%, rgba(170,225,0,1) 50%, rgba(0,0,0,1) 100%);                  
- background: rgb(236,237,219);
-background: linear-gradient(180deg, rgb(16, 16, 16) 0%, rgb(251, 255, 0) 50%, rgba(0,0,0,1) 100%);                  
+background: linear-gradient(180deg,rgb(242, 205, 52,1) 5%, rgba(255, 234, 0, 0.6) 50%,  rgba(0,0,0,1) 100%);   
+/* ########################################################################################################################### */   
+ 
+  /* background: rgb(236,237,219);
+background: linear-gradient(180deg, rgb(91, 91, 91) 0%, rgba(170,225,0,1) 50%, rgba(0,0,0,1) 100%);                    */
+/* ########################################################################################################################### */
+ /* background: rgb(236,237,219);
+background: linear-gradient(180deg, rgb(251, 255, 0) 0%, rgb(251, 255, 0,0.6) 50%, rgba(0,0,0,1) 100%);                   */
   
   mix-blend-mode:normal;
-  height: 100vh;
+  height: 108vh;
   width: 100%;
   z-index: 2;
   opacity: 0.79;
@@ -40,8 +32,24 @@ background: linear-gradient(180deg, rgb(16, 16, 16) 0%, rgb(251, 255, 0) 50%, rg
 }
 
 .header-text {
+  padding: 1vw;
+  border-radius: 15px;
+  /* border: 1px solid #ffffff; */
+  font-family: 'Regular';
   color: #ffffff;
   font-size: 0.8vw;
+
+/* background: rgba(29, 28, 28, 0.1); */
+border-radius: 16px;
+/* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+
+/* border-bottom: 1px solid rgb(255, 255, 255,0.2);
+border-top: 1px solid rgb(255, 255, 255,0.6);
+border-right:1px solid rgb(255, 255, 255,0.2) ;
+border-left:1px solid rgb(255, 255, 255,0.2) ; */
+    
 }
 .header-video {
   position: absolute;
@@ -133,6 +141,10 @@ background: linear-gradient(180deg, rgb(16, 16, 16) 0%, rgb(251, 255, 0) 50%, rg
 }
 .header-font-skils {
   font-size: 0.9wv;
+}
+.header-placeholder{
+  height: 15vh;
+  background-color: var(  --main-bg-color);
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
