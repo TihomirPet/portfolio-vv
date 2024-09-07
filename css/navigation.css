@@ -18,11 +18,12 @@
   background: rgb(208, 208, 208);
   background: linear-gradient(
     90deg,
-      rgba(214, 214, 214, 0.3) 0%,
-   rgba(255, 255, 255) 30%,
-   rgba(255, 255, 255) 70%,
+    rgba(214, 214, 214, 0.3) 0%,
+    rgba(255, 255, 255) 30%,
+    rgba(255, 255, 255) 70%,
     rgba(214, 214, 214, 0.3) 100%
   );
+  backdrop-filter: blur(5px);
   border-radius: 10vw;
   border: 1px solid hsl(0, 0%, 100%, 0.5);
   -webkit-box-shadow: inset 5px 4px 7px -6px #271b00;
@@ -166,18 +167,18 @@
   }
   .navbar-nav {
     padding-left: 4vw !important;
-  background: rgb(208, 208, 208);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255) 0%,
-    rgb(242, 242, 242) 50%,
-    rgba(242, 242, 242) 100%
-  );
-  border-radius: 3vw;
-  border: 1px solid hsl(0, 0%, 100%, 0.5);
-  -webkit-box-shadow: inset 5px 4px 7px -6px #271b00;
-  box-shadow: inset 5px 6px 4px -6px #271b00;
-}
+    background: rgb(208, 208, 208);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255) 0%,
+      rgb(242, 242, 242) 50%,
+      rgba(242, 242, 242) 100%
+    );
+    border-radius: 3vw;
+    border: 1px solid hsl(0, 0%, 100%, 0.5);
+    -webkit-box-shadow: inset 5px 4px 7px -6px #271b00;
+    box-shadow: inset 5px 6px 4px -6px #271b00;
+  }
 }
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
