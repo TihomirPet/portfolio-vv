@@ -1,30 +1,28 @@
-
-
-.contact {
-  font-size: 0.8vw !important;
-
-
-  text-decoration: none;
-
-}
 .contact-holder {
+  height: 20vh;
+  background-color: var(--main-bg-color);
+}
+.contact-items {
+  font-size: 0.8vw !important;
+  text-decoration: none;
+}
+.contact-holder-items {
   width: 100%;
   height: 100%;
   /* background-color: #fff; */
-  color: #000000;
+  color: #ffffff;
 }
-.contact-holder:hover {
+.contact-holder-items:hover {
   /* background-color: #fff; */
-   /* color: #000; */
+  /* color: #000; */
 }
-.contact :nth-child(2) {
+.contact-items :nth-child(2) {
   display: none;
 }
-.contact:hover img:nth-child(2) {
+.contact-items:hover img:nth-child(2) {
   display: block;
-  
 }
-.contact:hover img:first-child {
+.contact-items:hover img:first-child {
   display: none;
 }
 .contact-icon {
@@ -38,7 +36,7 @@
     height: 100%;
     /* background-color: #fff; */
   }
-    .contact {
+  .contact {
     font-size: 1.1vw !important;
     /* color: #000; */
     text-decoration: none;
