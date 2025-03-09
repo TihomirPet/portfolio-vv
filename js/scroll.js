@@ -11,22 +11,34 @@ document.addEventListener('DOMContentLoaded', (event) => {
   });
 });
 
-
 let tl = gsap.timeline();
 
-
-
-// gsap.from('.header', {
-//   x: 300,
-//   duration: 3,
+// gsap.from('.projects-img-one', {
 //   scrollTrigger: {
-//     trigger: '.header',
+//     trigger: '.projects-img-one',
 //     start: 'top center',
 //     markers: true,
-   
 //   },
+//   x: 300,
+//   duration: 1,
 // });
 
+
+
+// ScrollTrigger.batch('.projects-img-one', {
+//   start: 'top center',
+//   markers: true,
+//   onEnter: (elements) => {
+//     gsap.from(elements, {
+//       autoAlpha: 0,
+//       x: 600,
+//       duration: 1,
+//       stagger: 0.5,
+//       ease: 'Power.easeInOut',
+//     });
+//   },
+//   once: true,
+// });
 
 // animation background
 tl.fromTo(
@@ -34,7 +46,7 @@ tl.fromTo(
   { opacity: 0, z: '-800', scale: 2 },
   {
     opacity: 1,
-    duration: 2,
+    duration: 1,
     // stagger: 0.5,
     scale: 1,
     ease: 'Power.easeInOut',
@@ -42,10 +54,9 @@ tl.fromTo(
   }
 );
 
-
-// animation 
+// animation
 tl.fromTo(
-  [, '.animateSkils', '.nav-holder', ],
+  [, '.animateSkils', '.nav-holder'],
   { opacity: 0, y: '-50' },
   {
     opacity: 1,
@@ -55,8 +66,6 @@ tl.fromTo(
     y: '0',
   }
 );
-
-
 
 // (split = new SplitText('header-text', { type: 'words' })),
 //   tl.from(split.chars, {
@@ -69,3 +78,24 @@ tl.fromTo(
 
 
 
+// tl.fromTo(
+//   '.projects-img-one',
+//   {
+//     scrollTrigger: {
+//       trigger: '.projects-img-one',
+//       start: 'top top',
+//       markers: true,
+//     },
+//     opacity: 0,
+//     z: '-800',
+//     scale: 2,
+//   },
+//   {
+//     opacity: 1,
+//     duration: 1,
+//     // stagger: 0.5,
+//     scale: 1,
+//     ease: 'Power.easeInOut',
+//     x: '0',
+//   }
+// );
